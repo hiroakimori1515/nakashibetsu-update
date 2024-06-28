@@ -1,0 +1,75 @@
+@charset "utf-8";
+
+$pc: 751px;
+$sp: 750px;
+$sp2: 550px;
+$tab: 1200px;
+$tab2: 880px;
+$pc2: 1700px;
+
+@mixin pc {
+  @media screen and (min-width: ($pc)) {
+    @content;
+  }
+}
+
+@mixin tab {
+  @media screen and (max-width: ($tab)) {
+    @content;
+  }
+}
+
+@mixin tab2 {
+  @media screen and (max-width: ($tab2)) {
+    @content;
+  }
+}
+
+@mixin sp {
+  @media screen and (max-width: ($sp)) {
+    @content;
+  }
+}
+
+@mixin sp2 {
+  @media screen and (max-width: ($sp2)) {
+    @content;
+  }
+}
+
+@mixin pc2 {
+  @media screen and (max-width: ($pc2)) {
+    @content;
+  }
+}
+
+@mixin fontSizeHeight ($fontSize, $lineHeight) {
+  font-size: $fontSize;
+  line-height: ($lineHeight / $fontSize);
+}
+
+$black: #000;
+$white: #fff;
+$blue01: #1768ac;
+$blue02: #007cc5;
+$red01: #d04141;
+$gold01: #9e8b79;
+$gold02: #c2ae95;
+$hikariaGreen: #84ccc9;
+$formGreen: #81b01b;
+$formLightGreen: #b6c649;
+
+$brandDuoColor: #363637;
+$brandDuoSubColor: #434343;
+$brandHikariaColor: #009d85;
+$brandHikariaSubColor: #83c9b9;
+$brandEcoxiaColor: #108fca;
+$brandEcoxiaSubColor: #6f9fc8;
+$brandzerocubeColor: #e4424f;
+$brandzerocubeSubColor: #f6f5f0;
+$brandzerocubeSubColor2: #b4dddc;
+$brandzerocubeSubColor3: #fbeaba;
+
+$noto: 'Ubuntu','Noto Sans JP', 'YuGothic','Yu Gothic','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3', sans-serif;
+$mincho: 'Yu Mincho Light','YuMincho','Yu Mincho','游明朝体','ヒラギノ明朝 ProN','Hiragino Mincho ProN', sans-serif;
+$ubuntu: 'Ubuntu', sans-serif;

@@ -1,0 +1,52 @@
+@charset "utf-8";
+@import "../../foundation/f-variables";
+
+.p-floor {
+  width: 80%;
+  margin: 0 auto;
+  padding: 5% 0 3%;
+
+  @include sp {
+    width: 100%;
+  }
+}
+
+.p-floor_title {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+
+  @include sp {
+    font-size: 4.2rem;
+  }
+}
+
+.p-floor_title_small {
+  font-size: 1.6rem;
+  padding: 0 0 0 1rem;
+
+  @include sp {
+    font-size: 2rem;
+  }
+}
+
+.p-floor_container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+
+  @include sp {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+
+.p-floor_box {
+  width: 50%;
+  padding: 0 5%;
+
+  @include sp {
+    width: 100%;
+  }
+}

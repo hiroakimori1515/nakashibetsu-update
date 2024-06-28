@@ -1,0 +1,14 @@
+.DS_Store
+node_modules/
+*.log
+*.sql
+*.sqlites
+*.jpg
+*.jpeg
+*.png
+*.svg
+*.webp
+*.gif
+images/
+src/
+local/

@@ -1,0 +1,55 @@
+@charset "utf-8";
+@import "../../foundation/f-variables";
+
+.p-form {
+  padding: 0 .5rem 150px;
+
+  @include sp {
+    padding: 0 .5rem 10rem;
+  }
+}
+
+.p-form-top {
+  @include sp {
+    padding: 4rem;
+  }
+}
+
+.p-form-page_top {
+  padding: 8rem 0 4rem;
+  display: flex;
+  justify-content: center;
+
+  @include sp {
+    padding: 4rem 2rem;
+    justify-content: flex-start;
+  }
+}
+
+.p-form-page_title {
+  color: $formGreen;
+  @include fontSizeHeight(42px, 48px);
+  letter-spacing: .2em;
+  font-weight: 700;
+  text-align: center;
+
+  @include tab {
+  }
+
+  @include sp {
+    @include fontSizeHeight(4rem, 5.2rem);
+  }
+}
+
+.p-form-page_notice {
+  font-size: 16px;
+  color: $red01;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @include sp {
+    font-size: 2.4rem;
+    padding: 2rem 0;
+  }
+}

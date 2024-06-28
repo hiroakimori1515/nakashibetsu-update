@@ -1,0 +1,747 @@
+@charset "utf-8";
+@import "../../foundation/f-variables";
+
+.p-form {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 70px 0 250px;
+  display: block;
+
+  @include sp {
+    padding: 8rem .5rem;
+  }
+}
+
+.p-form-top {
+  position: relative;
+  padding: 70px;
+
+
+  @include sp {
+    padding: 4rem 0 0;
+  }
+}
+
+.p-form-top_title {
+  text-align: center;
+  margin: 0 0 80px;
+  
+  @include sp {
+    margin: 0 0 4rem;
+  }
+}
+
+.p-form-top_title_text {
+  color: $formGreen;
+  @include fontSizeHeight(35px, 48px);
+  letter-spacing: .12em;
+  font-weight: 700;
+  display: inline-block;
+  transform: translate(60px, 0);
+
+  @include tab {
+    @include fontSizeHeight(5.8rem, 7.8rem);
+    transform: translate(4rem, 0);
+  }
+
+  @include sp {
+    @include fontSizeHeight(3.5rem, 4.8rem);
+    transform: translate(8rem, 0);
+  }
+}
+
+.p-form-top_img {
+  width: 200px;
+  position: absolute;
+  top: 0;
+  left: 100px;
+
+  @include tab {
+    width: 30rem;
+    left: 10rem;
+  }
+
+  @include sp {
+    width: 20rem;
+    left: 0;
+  }
+}
+
+.p-form-container {
+  background: #eeeeee;
+  padding: 80px 100px;
+
+  @include sp {
+    padding: 8rem 2rem;
+  }
+}
+
+.p-form-body {
+  padding: 50px;
+  background: $white;
+
+  @include sp {
+    padding: 2rem 1rem;
+  }
+}
+
+.p-form-label {
+  @include fontSizeHeight(18px, 26px);
+  padding: 5px;
+  cursor: pointer;
+
+  @include sp {
+    @include fontSizeHeight(2.6rem, 3.6rem);
+    padding: .5rem 1rem;
+  }
+}
+
+.p-form_input-text {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-weight: 700;
+  border: none;
+  box-shadow: 0 0 0 3px #c9c9c9 inset;
+  border-radius: unset;
+  @include fontSizeHeight(14px, 14px);
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+
+  @include sp {
+    box-shadow: 0 0 0 .3rem #c9c9c9 inset;
+    @include fontSizeHeight(2.8rem, 2.6rem);
+    height: 10rem;
+    padding: 1rem;
+  }
+
+  @include sp2 {
+    @include fontSizeHeight(16px, 20px);
+  }
+
+  &:focus {
+    outline: 0;
+    box-shadow: 0 0 0 3px $formLightGreen inset;
+
+    @include sp {
+      box-shadow: 0 0 0 .3rem $formLightGreen inset;
+    }
+  }
+
+  &::placeholder {
+    color: #c9c9c9;
+  }
+}
+
+.p-form_textarea {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-weight: 700;
+  border: none;
+  box-shadow: 0 0 0 3px #c9c9c9 inset;
+  border-radius: unset;
+  @include fontSizeHeight(16px, 22px);
+  resize: none;
+  width: 98%;
+  height: 14em;
+  padding: 20px 30px;
+
+  @include sp {
+    box-shadow: 0 0 0 .3rem #c9c9c9 inset;
+    @include fontSizeHeight(2.8rem, 3.2rem);
+      padding: 2rem 3rem;
+  }
+
+  @include sp2 {
+    @include fontSizeHeight(16px, 20px);
+  }
+
+  &:focus {
+    outline: 0;
+    box-shadow: 0 0 0 3px $formLightGreen inset;
+
+    @include sp {
+      box-shadow: 0 0 0 .3rem $formLightGreen inset;
+    }
+  }
+
+  &::placeholder {
+    color: #c9c9c9;
+  }
+}
+
+.p-form_input-checkbox {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  margin: 0 10px 0 0;
+  display: inline-block;
+  border: 1px solid $black;
+  border-radius: unset;
+  position: relative;
+  transform: translate(0, 2px);
+
+  @include sp {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin: 0 1rem 0 0;
+    transform: translate(0, .2rem);
+  }
+
+  &::after {
+    content: '';
+    width: 10px;
+    height: 5px;
+    display: inline-block;
+    border-bottom: 1px solid $black;
+    border-left: 1px solid $black;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    transform: rotate(-45deg);
+    opacity: 0;
+
+    @include sp {
+      width: 1.5rem;
+      height: .7rem;
+    }
+  }
+
+  &:checked::after {
+    opacity: 1;
+  }
+}
+
+.p-form_select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-weight: 700;
+  border: none;
+  box-shadow: 0 0 0 3px #c9c9c9 inset;
+  border-radius: unset;
+  background: $white;
+  @include fontSizeHeight(14px, 14px);
+  width: 100%;
+  height: 50px;
+  padding: 10px 20px 10px 10px;
+  position: relative;
+
+  @include sp {
+    box-shadow: 0 0 0 .3rem #c9c9c9 inset;
+    @include fontSizeHeight(2.8rem, 2.8rem);
+    height: 10rem;
+    padding: 1rem 6rem 1rem 1rem;
+  }
+
+  @include sp2 {
+    @include fontSizeHeight(16px, 20px);
+  }
+
+  &:focus {
+    outline: 0;
+    box-shadow: 0 0 0 3px $formLightGreen inset;
+
+    @include sp {
+      box-shadow: 0 0 0 .3rem $formLightGreen inset;
+    }
+  }
+
+  &::placeholder {
+    color: #c9c9c9;
+  }
+}
+
+.p-form-item_half-box_arrow {
+  position: relative;
+
+  &::after {
+    content: '';
+    width: 7px;
+    height: 7px;
+    display: inline-block;
+    border-bottom: 3px solid #333;
+    border-left: 3px solid #333;
+    position: absolute;
+    top: 42%;
+    right: 7px;
+    transform: rotate(-45deg);
+    z-index: 10;
+
+    @include sp {
+      width: 2rem;
+      height: 2rem;
+      right: 2rem;
+    }
+  }
+}
+
+.p-form-group_head {
+  border-bottom: 3px solid $black;
+  padding: 10px 5px;
+
+  @include sp {
+    border-bottom: .3rem solid $black;
+    padding: 1rem 2rem;
+  }
+}
+
+.p-form-group_head_text {
+  @include fontSizeHeight(18px, 27px);
+  font-weight: 700;
+
+  @include sp {
+    @include fontSizeHeight(2.7rem, 3.6rem);
+  }
+
+  @include sp2 {
+    @include fontSizeHeight(15px, 20px);
+  }
+}
+
+.p-form-group_head_text-small {
+  font-size: 13px;
+  font-weight: 700;
+  margin: 0 0 0 20px;
+  vertical-align: middle;
+
+  @include sp {
+    @include fontSizeHeight(10px, 12px);
+    margin: 0;
+  }
+}
+
+.p-form-container_title {
+  @include fontSizeHeight(20px, 30px);
+  letter-spacing: .12em;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  margin: 0 0 70px;
+
+  @include sp {
+    @include fontSizeHeight(2.7rem, 3rem);
+    margin: 0 0 7rem;
+  }
+
+  @include sp2 {
+    @include fontSizeHeight(15px, 20px);
+  }
+}
+
+.p-form-container_title_img {
+  width: 36px;
+  margin: 0 20px 0 0;
+
+  @include sp {
+    width: 3.6rem;
+    margin: 0 2rem 0 0;
+  }
+
+  @include sp2 {
+    width: 26px;
+  }
+}
+
+.p-form-group_inner {
+  display: flex;
+  padding: 15px 0 30px;
+
+  @include tab {
+    flex-wrap: wrap;
+
+  }
+
+  @include sp {
+    padding: 1.5rem 0 4rem;
+  }
+}
+
+.p-form-card {
+  width: 210px;
+  height: 125px;
+  margin: 0 3px 6px;
+  position: relative;
+
+  @include sp {
+    width: calc(50% - 1rem);
+    height: 18.6rem;
+    margin: 0 0 2rem;
+  }
+}
+
+.p-form-card_content {
+  height: 100%;
+  display: inline-flex;
+  align-items: center;
+}
+
+.p-form-card_content_inner {
+  @include fontSizeHeight(17px, 27px);
+
+  @include sp {
+    @include fontSizeHeight(2.5rem, 4rem);
+  }
+}
+
+.p-form-card_content_text {
+  font-weight: 700;
+}
+
+.p-form-card_content_date {
+  @include fontSizeHeight(20px, 26px);
+  font-weight: 500;
+  letter-spacing: .06em;
+  padding: 10px 0 0;
+  text-align: left;
+
+  @include sp {
+    font-size: 2.8rem;
+  }
+}
+
+.p-form-card_checkbox {
+  width: 20px;
+  height: 20px;
+  margin: 0;
+  border: 1px solid $black;
+  border-radius: unset;
+  position: absolute;
+  top: 43%;
+  left: 5%;
+  transform: translate(0, 0);
+
+  @include sp {
+    width: 3.7rem;
+    height: 3.7rem;
+  }
+
+  &::after {
+    content: '';
+    width: 10px;
+    height: 5px;
+    display: inline-block;
+    border-bottom: 1px solid $white;
+    border-left: 1px solid $white;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    transform: rotate(-45deg);
+    opacity: 0;
+
+    @include sp {
+      width: 2rem;
+      height: 1rem;
+    }
+  }  
+}
+
+.p-form-card_label {
+  width: 100%;
+  height: 100%;
+  padding: 0 0 0 20%;
+  display: inline-block;
+  border-radius: 10px;
+  background: #fafafa;
+
+  @include sp {
+    padding: 0 0 0 9rem;
+    border-radius: 1rem;
+  }
+}
+
+.p-form-card-thumbnail {
+  margin: 0 auto 2rem;
+  width: 425px;
+  height: 233px;
+
+  @include sp {
+    width: 67rem;
+    max-width: 100%;
+    height: auto;
+    min-height: 25.3rem;
+
+    &:nth-last-of-type(1) {
+      margin: 0 auto;
+    }
+  }
+}
+
+.p-form-card-thumbnail-l {
+  @extend .p-form-card-thumbnail;
+
+  @include pc {
+    height: 250px;
+  }
+
+  @include sp {
+    width: 48%;
+    max-width: 48%;
+    &:nth-last-of-type(1) {
+      margin: 0 auto 2rem;
+    }
+  }
+
+
+}
+
+.p-form-card-thumbnail_label {
+  padding: 26px 10px 20px;
+
+  @include sp {
+    padding: 2.6rem 2rem 2rem;
+  }
+}
+
+.p-form-card-thumbnail_checkbox {
+  top: 30px;
+  left: 15px;
+
+  @include sp {
+    top: 2rem;
+    left: 2rem;
+  }
+}
+
+.p-form-card-thumbnail_name {
+  @include fontSizeHeight(18px, 27px);
+  font-weight: 700;
+  padding: 0 0 0 35px;
+
+  @include sp {
+    @include fontSizeHeight(2.6rem, 2.7rem);
+    padding: 0 0 0 6rem;
+  }
+}
+
+.p-form-card-thumbnail-l_name {
+  @extend .p-form-card-thumbnail_name;
+  text-align: left;
+
+  @include pc {
+    min-height: 54px;
+  }
+  @include sp {
+    @include fontSizeHeight(2.6rem, 3.2rem);
+    padding: 5rem 0 0;
+  }
+}
+
+.p-form-card-thumbnail_content {
+  height: calc(100% - 27px);
+  display: flex;
+  align-items: unset;
+
+  @include sp {
+    height: auto;
+    padding: 1rem 0 0;
+  }
+}
+
+.p-form-card-thumbnail-l_content {
+  @extend .p-form-card-thumbnail_content;
+  @include pc {
+    height: calc(100% - 54px);
+  }
+  @include sp {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.p-form-card-thumbnail_img {
+  width: 182px;
+  display: flex;
+  align-items: center;
+
+  @include sp {
+    width: 18.2rem;
+  }
+}
+
+.p-form-card-thumbnail-l_img {
+  @extend .p-form-card-thumbnail_img;
+
+  @include sp {
+    width: 80%;
+    min-height: 25rem;
+    padding: 0;
+  }
+}
+
+.p-form-card-thumbnail_inner {
+  width: calc(100% - 182px);
+  padding: 20px 0 0 10px;
+
+  @include sp {
+    width: calc(100% - 18.2rem);
+    padding: 0 0 0 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+.p-form-card-thumbnail-l_inner {
+  @extend .p-form-card-thumbnail_inner;
+  @include sp {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+.p-form-card-thumbnail_content_text {
+  @include fontSizeHeight(14px, 21px);
+  letter-spacing: 0;
+  font-weight: 700;
+
+  @include sp {
+    @include fontSizeHeight(2.4rem, 3.6rem);
+  }
+}
+
+.p-form-group .p-form-card .p-form-card_checkbox:checked {
+  border: 1px solid $white;
+
+  &::after {
+    opacity: 1;
+  }
+
+
+  & + .p-form-card_label {
+    color: $white;
+    background: $formGreen;
+  }
+}
+
+.p-form-item {
+  width: 100%;
+  text-align: center;
+  dl {
+    display: flex;
+    padding: 7px;
+
+    @include sp {
+      padding: 1rem;
+    }
+  }
+
+  dt {
+    color: #1c3738;
+    @include fontSizeHeight(14px, 26px);
+    font-weight: 700;
+    width: 100px;
+    display: flex;
+    align-items: center;
+
+    @include tab {
+      max-width: 20%;
+    }
+
+    @include sp {
+      display: none;
+    }
+  }
+
+  dd {
+    width: 420px;
+    display: flex;
+    justify-content: space-between;
+
+    @include tab {
+      max-width: 80%;
+    }
+
+    @include sp {
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+
+  .p-form-item_half-box {
+    width: 48%;
+    width: calc(50% - 10px);
+
+    @include sp {
+      width: calc(50% - 1rem);
+    }
+  }
+}
+
+.p-form-bottom {
+  padding: 0 5%;
+
+  a {
+    border-bottom: 1px solid $black;
+
+    &:hover {
+      color: $formGreen;
+    }
+  }
+}
+
+.p-form-bottom_text {
+  @include fontSizeHeight(13px, 18px);
+  letter-spacing: 0;
+  padding: 4px 0;
+
+  @include sp {
+    @include fontSizeHeight(2rem, 3rem);
+    padding: .5rem 0;
+  }
+}
+
+.p-submit-box {
+  padding: 30px 0;
+  text-align: center;
+
+  @include sp {
+    padding: 3rem 0;
+  }
+}
+
+.p-submit {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: unset;
+  color: $white;
+  @include fontSizeHeight(16px, 30px);
+  width: 300px;
+  padding: 10px 0;
+  display: inline-block;
+  background: $formGreen;
+  border: none;
+  cursor: pointer;
+
+  @include sp {
+    @include fontSizeHeight(2.8rem, 7.7rem);
+    width: 50rem;
+    padding: 1rem 0;
+  }
+}
+
+// validation engine カスタマイズ
+
+.formError {
+  opacity: 1 !important;
+
+  @include sp {
+    left: 0 !important;
+  }
+}
+
+.formError .formErrorContent {
+  background: $formGreen;
+  border-radius: unset;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, .2);
+}
+
+.formError .formErrorArrow div {
+  background: $formGreen;
+}

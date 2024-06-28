@@ -1,0 +1,353 @@
+@charset "utf-8";
+@import "../../foundation/f-variables";
+
+.estate_wrapper {
+  background: #d9d0c6;
+  font-family: 'Ubuntu', 'Noto Sans JP',"游ゴシック", "Yu Gothic", "游ゴシック体", "YuGothic",sans-serif;
+}
+
+.estate_inner {
+  width: 78%;
+  max-width: 1200px;
+  padding: 100px 0;
+  margin: 0 auto;
+
+  @include sp {
+    width: 95%;
+    padding: 14vw 0;
+  }
+}
+
+.estate_top {
+  margin: 0 0 80px;
+
+  @include sp {
+    margin: 0 0 10vw;
+  }
+}
+
+.estate_top_title {
+  color: $white;
+  font-size: 7.2rem;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: .12em;
+  text-align: center;
+
+  @include sp {
+    font-size: 10vw;
+  }
+}
+
+.estate_top_text {
+  color: $white;
+  font-size: 2.8rem;
+  letter-spacing: 1.33m;
+  font-weight: bold;
+  text-align: center;
+
+  @include sp {
+    font-size: 3vw;
+  }
+}
+
+.estate_flex_half {
+  width: 50%;
+  padding: 2% .5%;
+
+  @include sp {
+    width: 100%;
+  }
+}
+
+.estate_container {
+  background-color: #fff;
+  padding: 2%;
+  margin: 0 0 100px;
+
+  @include sp {
+    padding: 2% 2% 10%
+  }
+}
+
+.estate_container:nth-last-of-type(1) {
+  margin: 0;
+}
+
+.estate_container_top {
+  padding: 0 0 20px;
+  display:flex;
+	justify-content: space-between;
+
+  @include sp {
+    flex-direction: column;
+    padding: 0 0 6vw;
+  }
+}
+
+.estate_container_top_left {
+  min-width: 440px;
+
+  @include sp {
+    min-width: auto;
+  }
+}
+
+.estate_address_text {
+  font-size: 30px;
+  line-height: 3;
+  letter-spacing: .12em;
+  font-weight: bold;
+  text-align: center;
+
+  @include sp {
+    font-size: 4.7vw;
+  }
+}
+
+.estate_price_box {
+  color: #f5323a;
+  margin: 0 0 5px;
+  display:flex;
+	justify-content: center;
+}
+
+.estate_price_inner {
+  display:flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+	justify-content: center;
+}
+
+.estate_top_other {
+  background-color: #f7f7f7;
+  padding: 10px 20px;
+  margin: 0 5% 0 0;
+}
+
+@media screen and (max-width: 959px) {
+  .estate_top_other {
+    padding: 2vw 4vw;
+  }
+}
+
+.estate_top_other_text {
+  color: #000;
+  font-size: 17px;
+  line-height: 1.4;
+  font-weight: bold;
+  letter-spacing: .1em;
+}
+
+@media screen and (max-width: 959px) {
+  .estate_top_other_text {
+    font-size: 3vw;
+  }
+}
+
+.estate_price_text {
+  font-size: 19px;
+  line-height: 1.45;
+  font-weight: bold;
+  letter-spacing: .12em;
+
+  @include sp {
+    font-size: 3.2vw;
+  }
+}
+
+@include sp {
+  .estate_price_inner:nth-of-type(1) .estate_price_text {
+    top: -0.5213vw;
+  }
+}
+
+.estate_price_text span {
+  font-size: 55px;
+  line-height: 0.69231;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  letter-spacing: .06em;
+  vertical-align: baseline;
+
+  @include sp {
+    font-size: 10vw;
+    line-height: 0.75;
+  }
+}
+
+.estate_slider_box {
+  padding: 0 0 0 5.7%;
+
+  @include sp {
+    padding: 0;
+  }
+}
+
+.estate_flex_container {
+  display:flex;
+	justify-content: space-between;
+
+  @include sp {
+    flex-direction: column;
+  }
+}
+
+.estate_gmap {
+  border: 2px solid #000;
+  height: 100%;
+
+  @include sp {
+    height: 80vw;
+    border: none;
+  }
+}
+
+.estate_gmap iframe {
+  max-width: 100%;
+  max-height: 100%;
+  height: 100%;
+}
+
+.estate_peripheral_top {
+  position: relative;
+  text-align: left;
+  margin: 0 0 10px;
+}
+
+.estate_peripheral_top_text {
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: bold;
+  padding: 0 10px 0 5px;
+  background-color: #fff;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+}
+
+.estate_peripheral_container {
+  display:flex;
+	justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.estate_peripheral_card {
+  width: 32%;
+
+  @include sp {
+    width: 48%;
+  }
+}
+
+.estate_peripheral_img_box {
+  padding: 0 1.5%;
+}
+
+.estate_peripheral_text {
+  font-size: 12px;
+  line-height: 1.4;
+  font-weight: bold;
+  margin: 0 0 10px;
+
+  @include sp {
+    font-size: 3vw;
+    margin: 0 0 4vw;
+  }
+}
+
+.estate_drop_btn_box {
+  margin: 0 0 40px;
+
+  @include sp {
+    margin: 0 0 6vw;
+  }
+}
+
+.estate_drop_btn {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.estate_drop_arrow {
+  width: 31px;
+  height: 31px;
+  margin: 0 30px 0 0;
+  display: inline-block;
+  background: no-repeat center/100% url(../images/housing/housing_arrow.png);
+  transform: rotate(180deg);
+  transition: all .5s ease;
+
+  @include sp {
+    width: 5vw;
+    height: 5vw;
+  }
+}
+
+.estate_drop_btn_text {
+  font-size: 17px;
+  line-height: 31px;
+  font-weight: bold;
+}
+
+.estate_price_inner:nth-of-type(2) {
+  position: relative;
+  top: -2px;
+  margin: 0 1%
+}
+
+.estate_wrapper .flex_list_box dl:nth-of-type(1) {
+  border-top: none;
+}
+
+.estate_price_box {
+  margin: 0 0 20px;
+
+  @include sp {
+    margin: 0 0 4vw;
+  }
+}
+
+.estate_gmap {
+  border: none;
+  height: 83%;
+  padding: 31px 0;
+
+  @include sp {
+    height: 80vw;
+    padding: 0;
+  }
+}
+
+.estate_container_bottom {
+  @include sp {
+    padding: 0 0 4rem;
+  }
+}
+
+.estate_wrapper .js_drop_box {
+  display: block;
+
+  @include sp {
+    display: none;
+  }
+}
+
+.estate_link_box {
+  margin: 0 auto;
+}
+
+.estate_link_box a {
+  width: 100%;
+}
+
+.p-estate_notice {
+  font-size: 2.8rem;
+  line-height: 1.5;
+  padding: 6rem 0 0;
+  text-align: center;
+}

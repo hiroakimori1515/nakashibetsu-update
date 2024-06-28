@@ -1,0 +1,249 @@
+@charset "utf-8";
+@import "../../foundation/f-variables";
+
+.p-model_logo {
+  width: 65%;
+  max-width: 450px;
+  padding: 4% 0;
+  margin: 0 auto;
+  position: relative;
+  line-height: 1;
+}
+
+.p-model_logo_date {
+  vertical-align: baseline;
+  white-space: nowrap;
+
+  span {
+    vertical-align: baseline;
+  }
+}
+
+.p-model_logo_date_text {
+  color: #333;
+  font-size: 34px;
+  line-height: 1.2;
+  font-weight: bold;
+
+  @include pc2 {
+    font-size: 3.4rem;
+  }
+
+  @include sp2 {
+    font-size: 4.6rem;
+  }
+}
+
+.p-model_logo_month {
+  position: relative;
+  font-weight: bold;
+  font-family: $noto;
+
+  &::after {
+    content: '/';
+    font-size: 40%;
+
+  }
+}
+
+.p-model_logo_day {
+  font-weight: bold;
+  font-family: $noto;
+  position: relative;
+}
+
+.p-model_logo_dot {
+  font-weight: bold;
+  font-size: 36px;
+  letter-spacing: 0;
+  margin: 0 -15px;
+  @include pc2 {
+    font-size: 3.6rem;
+    margin: 0 -1.5rem;
+  }
+
+  @include sp2 {
+    font-size: 5rem;
+  }
+}
+
+.p-model_logo_oh {
+  &::before {
+    content: '';
+    display: block;
+    padding-top: 100%;
+  } 
+
+  &::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: no-repeat center/100% url(../images/model-list/model_logo_oh.png);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+  }
+
+
+  .p-model_logo_date {
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 20;
+  }
+  .p-model_logo_month {
+    font-size: 52px;
+
+    @include pc2 {
+      font-size: 5.2rem;
+    }
+
+    @include sp2 {
+      font-size: 6.2rem;
+    }
+
+  }
+  .p-model_logo_day {
+    font-size: 69px;
+
+    @include pc2 {
+      font-size: 6.9rem;
+    }
+
+    @include sp2 {
+      font-size: 8.6rem;
+    }
+  }
+  .p-model_logo_dayofweek {
+    font-size: 25%;
+  }
+}
+
+.p-model_logo_oh-1day {
+  @extend .p-model_logo_oh;
+
+  &::after {
+    background-image: url(../images/model-list/model_logo_oh-1day.png);
+  }
+}
+
+.p-model_logo_oh-2day {
+  @extend .p-model_logo_oh;
+
+  &::after {
+    background-image: url(../images/model-list/model_logo_oh-2day.png);
+  }
+
+  .p-model_logo_date {
+    top: 35%;
+  }
+
+  .p-model_logo_dayofweek {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
+  }
+}
+
+.p-model_logo_oh-long {
+  @extend .p-model_logo_oh;
+
+  &::after {
+    background-image: url(../images/model-list/model_logo_oh-long.png);
+  }
+
+  .p-model_logo_date {
+    top: 45%;
+    text-align: center;
+  }
+
+  .p-model_logo_dot {
+    writing-mode: vertical-rl;
+  }
+}
+
+.p-model_logo_oh-grandopen {
+  @extend .p-model_logo_oh;
+
+  &::after {
+    background-image: url(../images/model-list/model_logo_oh-grandopen.png);
+  }
+
+  .p-model_logo_date {
+    top: 35%;
+    text-align: center;
+  }
+
+  .p-model_logo_dot {
+    writing-mode: vertical-rl;
+  }
+}
+
+.p-model_logo_mh {
+  &::before {
+    content: '';
+    display: block;
+    padding-top: 100%;
+  } 
+
+  &::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: no-repeat center/100% url(../images/model-list/model_logo_mh.png);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+  }
+
+
+  .p-model_logo_date {
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 20;
+    text-align: center;
+  }
+  .p-model_logo_month {
+    font-size: 60px;
+
+    @include pc2 {
+      font-size: 6rem;
+    }
+
+    @include sp2 {
+      font-size: 7rem;
+    }
+
+  }
+  .p-model_logo_day {
+    font-size: 78px;
+
+    @include pc2 {
+      font-size: 7.8rem;
+    }
+
+    @include sp2 {
+      font-size: 9.5rem;
+    }
+  }
+  .p-model_logo_dayofweek {
+    font-size: 25%;
+  }
+}
+
+.p-model_logo_mh-all {
+  @extend .p-model_logo_mh;
+  .p-model_logo_date {
+    top: 33%;
+  }
+
+  &::after {
+    background-image: url(../images/model-list/model_logo_mh-all.png);
+  }
+}

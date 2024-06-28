@@ -1,0 +1,526 @@
+@charset "utf-8";
+@import "../../foundation/f-variables";
+
+.p-housing {
+  background: repeat-y top/100% url(../images/housing/housing_bg.jpg);
+  border-top: 14px solid #cfa972;
+
+  i {
+    font-style: italic;
+    font-family: "Ubuntu", sans-serif;
+  }
+}
+
+.p-housing_inner {
+  width: 78%;
+  max-width: 1200px;
+  padding: 60px 0 100px ;
+  margin: 0 auto;
+
+  @include sp {
+    width: 95%;
+    padding: 6rem 0 10rem;
+  }
+}
+
+.p-housing_top {
+  padding: 40px 0;
+
+  @include sp {
+    padding: 4rem 0;
+  }
+}
+
+.p-housing_top_title {
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: .12em;
+  text-align: center;
+
+  @include sp {
+    font-size: 10vw;
+  }
+}
+
+.p-housing_top_text {
+  font-size: 2.8rem;
+  letter-spacing: 1.3;
+  font-weight: 500;
+  text-align: center;
+
+  @include sp {
+    font-size: 3vw;
+  }
+}
+
+.p-housing_container {
+  background-color: $white;
+  border: 5px solid $black;
+  padding: 5% 2% 3%;
+  margin: 0 0 100px;
+
+  @include sp {
+    border: 3px solid $black;
+    padding: 5% 2% 10%;
+    margin: 0 0 10rem;
+  }
+}
+
+.p-housing_container:nth-last-of-type(1) {
+  margin: 0;
+}
+
+.p-housing_container_top {
+  padding: 0 0 20px;
+  display:flex;
+	justify-content: space-between;
+  align-items: center;
+
+  @include tab {
+    flex-direction: column;
+  }
+
+  @include sp {
+    flex-direction: column;
+    padding: 0 0 4.5rem;
+  }
+}
+
+.p-housing_container_top_left {
+  width: 400px;
+
+  @include tab {
+    width: 90%;
+  }
+
+  @include sp {
+    width: 100%;
+    order: 2;
+  }
+} 
+
+.p-housing_container_top_right {
+  width: calc(100% - 400px);
+
+  @include tab {
+    width: 90%;
+  }
+  
+
+  @include sp {
+    width: 100%;
+    order: 1;
+    margin: 0 0 5vw;
+  }
+}
+
+.housing_address_box {
+  width: 100%;
+  border-top: 3px solid #000;
+  border-bottom: 3px solid #000;
+
+  @include sp {
+    margin: 0 0 4vw;
+    border: none;
+  }
+}
+
+.housing_address_text {
+  font-size: 30px;
+  line-height: 1.5;
+  letter-spacing: .12em;
+  font-weight: bold;
+  padding: 15px 0 ;
+  text-align: center;
+
+  @include sp {
+    font-size: 3.2rem;
+    padding: 2rem 0;
+  }
+}
+
+.housing_price {
+  color: #f5323a;
+  padding: 25px 0 5px;
+  display:flex;
+	justify-content: center;
+
+  @include sp {
+    padding: 1rem 0;
+  }
+}
+
+.housing_price p {
+  font-size: 19px;
+  line-height: 1.45;
+  font-weight: bold;
+  letter-spacing: .12em;
+
+  @include sp {
+    font-size: 3.2vw;
+  }
+}
+
+.housing_price p:nth-of-type(1){
+  position: relative;
+  top: -5px;
+}
+
+.housing_price span {
+  font-size: 55px;
+  line-height: 0.69231;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  letter-spacing: .06em;
+  vertical-align: baseline;
+
+  @include sp {
+    font-size: 10vw;
+    line-height: 0.75;
+  }
+}
+
+.housing_price_monthly {
+  font-size: 24px;
+  line-height: 45px;
+  font-weight: bold;
+  margin: 0 0 10px;
+  text-align: center;
+
+  @include sp {
+    font-size: 4vw;
+    line-height: 6.5vw;
+    margin: 0 0 1vw;
+  }
+}
+
+.housing_price_monthly i {
+  font-size: 33px;
+  line-height: 45px;
+  font-weight: bold;
+  padding: 0 5px 0 0;
+
+  @include sp {
+    font-size: 5.8vw;
+    line-height: 6.5vw;
+  }
+}
+
+.housing_price_breakdown {
+  font-size: 12px;
+  line-height: 1.4;
+  width: 75%;
+  margin: 0 auto 20px;
+
+  @include sp {
+    width: 90%;
+  }
+}
+
+.housing_price_breakdown p {
+  text-align: justify;
+  text-justify: inter-ideograph;
+
+  @include sp {
+    font-size: 3vw;
+  }
+}
+
+.p-housing_container_top_other {
+  background-color: #f7f7f7;
+  padding: 20px 0;
+
+  @include sp {
+    padding: 2.5vw 0;
+  }
+}
+
+.p-housing_container_top_other h4 {
+  font-size: 39px;
+  letter-spacing: .1em;
+  font-weight: bold;
+  margin: 0 0 10px;
+  text-align: center;
+
+  @include sp {
+    font-size: 6vw;
+    margin: 0 0 1.5vw;
+  }
+}
+
+.p-housing_container_top_other p {
+  font-size: 17px;
+  letter-spacing: 1.4;
+  text-align: center;
+
+  @include sp {
+    font-size: 3vw;
+  }
+}
+
+.js-drop-box {
+  padding: 4% 0;
+}
+
+.housing_flex_container {
+  display:flex;
+	justify-content: space-between;
+
+  @include sp {
+    flex-direction: column-reverse;
+  }
+}
+
+.housing_flex_half {
+  width: 50%;
+  padding: 2%;
+
+  @include sp {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+.housing_flex_max {
+  width: 100%;
+  padding: 2%;
+
+  @include sp {
+    padding: 0;
+  }
+
+  .housing_gmap {
+    height: 300px;
+
+    @include sp {
+      height: 80vw;
+    }
+  }
+}
+
+@media screen and (max-width: 959px) {
+  .p-housing_container_middle {
+    margin: 0 0 8vw;
+  }
+}
+
+.flex_list_box dl {
+  font-size: 14px;
+  line-height: 2.4;
+  padding: 0 1%;
+  display:flex;
+  border-bottom: 1px solid #000;
+
+  @include sp {
+    line-height: 6vw;
+    padding: 2% 0;
+  }
+}
+
+.flex_list_box dl:nth-of-type(1) {
+  border-top: 1px solid #000;
+
+  @include sp {
+    border-top: none;
+  }
+}
+
+.flex_list_box dt {
+  font-weight: bold;
+  width: 40%;
+  text-align: left;
+
+  @include sp {
+    font-size: 3.4vw;
+    width: 33%;
+    padding: 0 0 0 2%;
+  }
+}
+
+.flex_list_box dd {
+  width: 60%;
+  text-align: left;
+
+  @include sp {
+    font-size: 3vw;
+    width: 67%;
+  }
+}
+
+
+@media screen and (max-width: 959px) {
+  .flex_list_box {
+    padding: 2% 0;
+  }
+}
+
+.housing_gmap {
+  border: 2px solid #000;
+  height: 490px;
+
+  @include sp {
+    height: 80vw;
+    border: none;
+  }
+}
+
+.housing_gmap iframe {
+  max-width: 100%;
+  max-height: 100%;
+  height: 100%;
+}
+
+.housing_peripheral_top {
+  position: relative;
+  text-align: left;
+  margin: 0 0 10px;
+}
+
+.housing_peripheral_top::before {
+  content: '';
+  width: 99%;
+  height: 5px;
+  display: inline-block;
+  background-color: #000;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(0, -50%);
+
+  @include sp {
+    width: 70%;
+    height: 3px;
+    left: 0;
+    margin: 0 auto;
+  }
+}
+
+.housing_peripheral_top_text {
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: bold;
+  padding: 0 10px 0 5px;
+  background-color: #fff;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+
+  @include sp {
+    font-size: 4vw;
+    padding: 0 2vw;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+}
+
+.housing_peripheral_container {
+  display:flex;
+	justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.housing_peripheral_card {
+  width: 32%;
+
+  @include sp {
+    width: 48%;
+  }
+}
+
+.housing_peripheral_img_box {
+  padding: 0 1.5%;
+}
+
+.housing_peripheral_text {
+  font-size: 12px;
+  line-height: 1.4;
+  font-weight: bold;
+  margin: 0 0 10px;
+
+  @include sp {
+    font-size: 3vw;
+    margin: 0 0 4vw;
+  }
+}
+
+.p-housing_container_bottom {
+  @include sp {
+    padding: 0 0 4rem;
+  }
+}
+
+.housing_btn_area {
+  padding: 40px 0 0;
+
+  @include sp {
+    padding: 4vw 0 0;
+  }
+}
+
+.housing_drop_btn_box {
+  @include sp {
+    padding: 1rem 0 4rem;
+  }
+}
+
+.housing_drop_btn {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+
+.housing_drop_arrow {
+  width: 31px;
+  height: 31px;
+  margin: 0 30px 0 0;
+  display: inline-block;
+  background: no-repeat center/100% url(../images/housing/housing_arrow.png);
+  transform: rotate(180deg);
+  transition: all .5s ease;
+
+  @include sp {
+    width: 5vw;
+    height: 5vw;
+  }
+}
+
+.housing_drop_btn_text {
+  font-size: 17px;
+  line-height: 31px;
+  font-weight: bold;
+
+  @include sp {
+    font-size: 4vw;
+    line-height: 5vw;
+  }
+}
+
+.js_drop_box {
+  display: none;
+}
+
+.js_close_text {
+  display: none;
+}
+
+.js_drop_btn.is_clicked .housing_drop_arrow,
+.js_drop_btn.is_clicked .estate_drop_arrow {
+  transform: rotate(0);
+}
+
+.js_drop_btn.is_clicked .js_open_text {
+  display: none;
+}
+
+.js_drop_btn.is_clicked .js_close_text {
+  display: block;
+}
+
+.housing_link_box {
+  margin: 0 auto;
+}
+
+.housing_link_box a {
+  width: 100%;
+}
