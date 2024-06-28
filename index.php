@@ -218,6 +218,13 @@ $localJS = array(
           </li>-->
 
           <li class="p-model-menu_list_item js-fadein-item u-mb-60">
+            <a class="p-model-menu_list_link popup-img-anima" href="#a-house1040">
+              <img src="./assets/images/model-list/house1040/link.png" alt="根室市駒場町1丁目">
+              <p class="p-model-menu_list_more">物件を見てみる</p>
+            </a>
+          </li>
+
+          <li class="p-model-menu_list_item js-fadein-item u-mb-60">
             <a class="p-model-menu_list_link popup-img-anima" href="#a-house1013">
               <img src="./assets/images/model-list/house1013/link.png" alt="中標津町東10条南9丁目">
               <p class="p-model-menu_list_more">物件を見てみる</p>
@@ -244,6 +251,178 @@ $localJS = array(
     <!-- /model-menu -->
     <!-- model-list -->
     <article id="a-model-list" class="p-model-list">
+
+      <!-- house1040 -->
+      <section class="p-model" id="a-house1040">
+        <div class="p-model_inner p-model-bg05 p-model-logos">
+          <p class="p-model_type-text"><a class="c-difference_link-icon u-mr-10" href="#a-difference"><img src="./assets/images/common/chumon_icon.png" width="112" height="162" alt="注文住宅"></a><span>OPEN HOUSE</span></p>
+          <!-- <p class="p-model_type-text"><a class="c-difference_link-icon u-mr-10" href="#a-difference"><img src="./assets/images/common/semi_icon.png" width="112" height="137" alt="セミオーダー住宅"></a><span>MODEL HOUSE</span></p> -->
+          <div class="p-model_box-01 p-model_flexbox u-flex-column-reverse-sp u-mb-20-pc">
+            <div class="p-model_flexbox-left u-text-align-center">
+            <div class="p-model_logo p-model_logo_oh-2day">
+                <p class="p-model_logo_date">
+                  <span class="p-model_logo_month">7</span>
+                  <span class="p-model_logo_day">20<span class="p-model_logo_dayofweek">SAT</span></span>
+                  <span class="p-model_logo_dot">・</span>
+                  <span class="p-model_logo_day">21<span class="p-model_logo_dayofweek">SUN</span></span>
+                </p>
+              </div>
+              <h3 class="p-model_box-01_title u-mb-40">OPEN HOUSE<br>根室市駒場町1丁目<br>オーナー様邸 完成見学会</h3>
+              <h4 class="p-model_box-01_address u-mb-20">根室市駒場町1丁目36番91</h4>
+              <p class="p-model_box-01_text-border u-mb-20">自由設計を楽しむ家</p>
+              <!-- <p class="p-model_box-01_subtitle u-font-size-20px-pc u-text-align-center u-mb-20"></p>
+              <p class="p-model_box-01_text u-text-align-center"></p> -->
+            </div>
+            <div class="p-model_flexbox-right u-pt-6per">
+              <p class="img"><img class="js-fadein-item" src="./assets/images/model-list/house1040/top.png" alt=""></p>
+              <!-- p-link-box-01 1/3 -->
+              <div class="p-link-box-01 sp">
+                <a class="p-link-box_btn p-link-box-01_syosailink" href="https://www.logoshome.jp/event/nakashibetsu/32228/" target="_blank">もっと詳細を見る</a>
+                <a class="p-link-box_btn p-link-box-01_raijyolink" href="https://www.logoshome.jp/event-reserve/?eventReserveId=32228" target="_blank">見学ご予約はこちら</a>
+              </div>
+            </div>
+          </div>
+          <!-- p-link-box-01 2/3 -->
+          <div class="p-link-box-01 pc">
+            <a class="p-link-box_btn p-link-box-01_syosailink" href="https://www.logoshome.jp/event/nakashibetsu/32228/" target="_blank">もっと詳細を見る</a>
+            <a class="p-link-box_btn p-link-box-01_raijyolink" href="https://www.logoshome.jp/event-reserve/?eventReserveId=32228" target="_blank">見学ご予約はこちら</a>
+          </div>
+          <ul class="p-model_pickup js-model-slider-sp">
+            <li class="p-model_pickup-item">
+              <img src="./assets/images/model-list/house1040/pick01.jpg?a" alt="">
+              <div class="p-model_pickup-item_box">
+                <p class="p-model_pickup-item_title u-mb-20">ゆったりくつろげる<br>
+                  20帖の広々LDK</p>
+                <p class="p-model_pickup-item_text">ダイニングとリビングの空間を分けながらも、キッチンからは両方に目が届き、家族とのコミュニケーションがとりやすいつくりとなっています。<br>
+                  キッチン横にはパントリーがあり、食材のストックはもちろん、冷凍庫や使用頻度の低い家電なども収納できて大変便利です。</p>
+              </div>
+            </li>
+            <li class="p-model_pickup-item">
+              <img src="./assets/images/model-list/house1040/pick02.jpg?a" alt="">
+              <div class="p-model_pickup-item_box">
+                <p class="p-model_pickup-item_title u-mb-20">トレンドの<br>
+                  ファミリークローゼット</p>
+                <p class="p-model_pickup-item_text">ユーティリティーとファミリークローゼットがつながっていて、入浴後や朝の身支度もスムーズに行えます。洗濯物をすぐにクローゼットに収納できるので片付けが楽ちん♪忙しい家事が時短化します。</p>
+              </div>
+            </li>
+            <li class="p-model_pickup-item">
+              <img src="./assets/images/model-list/house1040/pick03.jpg?a" alt="">
+              <div class="p-model_pickup-item_box">
+                <p class="p-model_pickup-item_title u-mb-20">家中スッキリ整う<br>
+                  充実の収納力！</p>
+                <p class="p-model_pickup-item_text">シューズクローゼットや各居室のクローゼットなど、適所に必要な量の収納が充実しています。2F主寝室のウォークインクローゼットは3.4帖と大容量！衣類はもちろん、季節家電など普段使わないものまでたっぷり収納でき、家中スッキリ片付きます。</p>
+              </div>
+            </li>
+            <li class="p-model_pickup-item">
+              <img src="./assets/images/model-list/house1040/pick04.jpg?a" alt="">
+              <div class="p-model_pickup-item_box">
+                <p class="p-model_pickup-item_title u-mb-20">お手入れ簡単♪<br>
+                  ホーローキッチン</p>
+                <p class="p-model_pickup-item_text">汚れやすいキャビネット底板やレンジフードのお手入れが簡単なタカラスタンダードのホーローキッチンを採用しています。<br>
+                  ロゴスホームのキッチンは、たくさんのメーカーよりお選びいただけます♪</p>
+              </div>
+            </li>
+            <li class="p-model_pickup-item">
+              <img src="./assets/images/model-list/house1040/pick05.jpg?a" alt="">
+              <div class="p-model_pickup-item_box">
+                <p class="p-model_pickup-item_title u-mb-20">快適な暮らしに<br>
+                  太陽光発電と高性能設備</p>
+                <p class="p-model_pickup-item_text">約7kWのソーラーパネルを搭載し、日々の光熱費を削減して家計にやさしいお家です。冬の暖房は灯油式を採用していて寒さにも安心のつくりです。<br>
+                  付加断熱や第一種換気など、家そのものを高性能にすることでより快適な暮らしを実現できます。</p>
+              </div>
+            </li>
+          </ul>
+          <div class="p-model_gallery">
+            <ul class="p-model_gallery-list">
+              <li class="p-model_gallery-list_item p-model_gallery-list_la_1 js-fadein-item"><img src="./assets/images/model-list/house1040/ga01.jpg?a" alt=""></li>
+              <li class="p-model_gallery-list_item p-model_gallery-list_la_2 js-fadein-item"><img src="./assets/images/model-list/house1040/ga02.jpg?a" alt=""></li>
+              <li class="p-model_gallery-list_item js-fadein-item"><img src="./assets/images/model-list/house1040/ga03.jpg?a" alt=""></li>
+              <li class="p-model_gallery-list_item js-fadein-item"><img src="./assets/images/model-list/house1040/ga04.jpg?a" alt=""></li>
+              <li class="p-model_gallery-list_item p-model_gallery-list_la_5 js-fadein-item"><img src="./assets/images/model-list/house1040/ga05.jpg?a" alt=""></li>
+              <li class="p-model_gallery-list_item js-fadein-item"><img src="./assets/images/model-list/house1040/ga06.jpg?a" alt=""></li>
+              <li class="p-model_gallery-list_item js-fadein-item"><img src="./assets/images/model-list/house1040/ga07.jpg?a" alt=""></li>
+            </ul>
+            <p class="p-model_gallery-notice u-text-align-center">※設備仕様のイメージ写真です。実際の建物とは異なります。</p>
+          </div>
+          <!-- <div class="p-floor">
+            <h3 class="p-floor_title u-mb-60">FLOOR PLAN</h3>
+            <div class="p-floor_container">
+              <div class="p-floor_box p-floor_box_bigger"><img src="./assets/images/model-list/house1013/md01.jpg" alt="1階見取り図"></div>
+              <div class="p-floor_box p-floor_box_bigger"><img src="./assets/images/model-list/house1013/md02.jpg" alt="2階見取り図"></div>
+            </div>
+          </div> -->
+          <div class="p-model_details p-model_flexbox">
+            <div class="p-model_details_flexbox-left">
+              <div class="c-bn_amazon_present"><img src="<?= $cpBannerB->getUrl(); ?>" alt="<?= $cpBannerB->getAlt(); ?>"></div>
+              <h4 class="p-model_details_title u-mb-20">根室市駒場町1丁目<br>オーナー様邸</h4>
+              <p class="p-model_details_main u-mb-20">
+                <strong>住所</strong>：根室市駒場町1丁目36番91<br>
+                <strong>公開</strong>：7/20(土)・21(日) 2日間限定公開！10:00～17:00<br>
+                <strong>予約</strong>：<?= $yoyakuText ?><br>
+                <strong>担当店舗</strong>： <a href="#LH_NAKASHIBETSU">ロゴスホーム中標津</a><br>
+              </p>
+              <a href="tel:0153-73-1726" class="p-model_details_tel_box u-mb-20">
+                <img src="/cmn_assets/images/common/icon_tel_white02.png">
+                <span class="p-model_details_tel_text">0153-73-1726</span>
+              </a>
+              <!-- <p class="p-model_details_data">物件概要
+                ■所在地:標津郡中標津町東10条南9丁目1-13
+                ■交通:阿寒バス「すずらん団地」停まで徒3分
+                ■学区:中標津東小学校（徒歩4分／約290m）・広陵中学校（徒歩5分／約350m）
+                ■地目:宅地
+                ■用途地域:第2種中高層住居専用地域
+                ■建ぺい率:60％
+                ■容積率:200％
+                ■道路:北東側公道8mに12.5ｍ接道
+                ■間取り:4LDK
+                ■土地面積:241.50㎡(73.05坪)
+                ■建物面積:1F: 56.31㎡(17.03坪)
+                2F: 51.34㎡(15.53坪)
+                ■延床: 107.65㎡(32.56坪)
+                ■完成時期:2024年7月
+                ■入居予定:要相談
+                ■建物状況:新築
+                ■構造:木造2階建
+                ■工法:枠組み壁工法(2×4工法)
+                ■建築確認番号:第SKK20240247号
+                ■電力:北海道電力
+                ■水道:公営水道
+                ■ガス:お問い合わせください
+                ■取引態様:売主
+                ■権利:所有権
+                ■都市計画:非線引き区域
+                ■駐車場:3台分
+                ■設備:LDK 15帖以上/ウォークインクローゼット/シューズクローゼット/システムキッチン/IHクッキングヒーター/食器洗い乾燥機/浄水器/浴室1坪以上/オートバス/シャワー付洗面化粧台/温水洗浄便座/節水型トイレ/複層ガラス/オール電化/TVモニタ付きインターホン/省エネ給湯器/エコキュート/ヒートポンプ冷暖房エアコン/電気パネルヒーター
+              </p>
+              <div class="p-model_details-price u-mb-20">
+                <p class="p-model_details-price_head">- PRICE- </p>
+                <p class="p-model_details-price_catch">建物+土地</p>
+                <p class="p-model_details-price_num"><span>3,480</span>万円(税込)</p>
+                <p class="p-model_details-price_data-list">
+                  ＋諸費用70万円（登記・火災保険・融資手数料等）<br><br>
+                  自己資金：10万円　住宅ローン：3,540万円<br>月々84,255円<br>■お支払い例：A　<br>北洋銀行：0.68％、3年固定金利、40年返済<br>
+                  ①ボーナス無し：84,255円/12回<br>
+                  ②ボーナス有り：67,594円/12回・100,087円/2回<br>
+                  <br>
+                  ■お支払い例：B　<br>北洋銀行：0.68％、3年固定金利、35年返済<br>
+                  ①ボーナス無し：94,737円/12回<br>
+                  ②ボーナス有り：76,004円/12回・112,541円/2回
+                </p>
+              </div> -->
+            </div>
+            <div class="p-model_details_flexbox-right">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2901.951956168853!2d145.5926944!3d43.3361944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDPCsDIwJzEwLjMiTiAxNDXCsDM1JzMzLjciRQ!5e0!3m2!1sja!2sjp!4v1719551919084!5m2!1sja!2sjp"></iframe>
+              <div class="c-map-link"><a href="https://maps.app.goo.gl/XCi4CxnRrHqd5VSx5" target="_blank" rel="noopener">GoogleMAPでみる</a></div>
+            </div>
+          </div>
+          <!-- p-link-box-01 3/3 -->
+          <div class="p-link-box-01">
+            <a class="p-link-box_btn p-link-box-01_syosailink" href="https://www.logoshome.jp/event/nakashibetsu/32228/" target="_blank">もっと詳細を見る</a>
+            <a class="p-link-box_btn p-link-box-01_raijyolink" href="https://www.logoshome.jp/event-reserve/?eventReserveId=32228" target="_blank" rel="noopener">見学ご予約はこちら</a>
+          </div>
+        </div>
+      </section>
+      <!-- /house1040 -->
 
       <!-- house1013 -->
       <section class="p-model" id="a-house1013">
