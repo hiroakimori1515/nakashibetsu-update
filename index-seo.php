@@ -462,7 +462,7 @@ $localJS = array(
                   <div class="p-models_item-slider_wrapper js-model-slider">
                     <div class="p-models_item-slider_slide">
                       <div class="p-models_item-slider_slide-img">
-                        <img src="./assets/images/models/house1041/pick01.jpg" alt="">
+                        <img src="./assets/images/models/house1013/pick01.jpg" alt="">
                       </div>
                       <h4 class="p-models_item-slider_slide-title">
                         すぐ収納で家事ラク！<br>ランドリールーム
@@ -473,7 +473,7 @@ $localJS = array(
                     </div>
                     <div class="p-models_item-slider_slide">
                       <div class="p-models_item-slider_slide-img">
-                        <img src="./assets/images/models/house1041/pick02.jpg" alt="">
+                        <img src="./assets/images/models/house1013/pick02.jpg" alt="">
                       </div>
                       <h4 class="p-models_item-slider_slide-title">
                         お出かけ時に便利♪<br>玄関ホールベンチ
@@ -485,7 +485,7 @@ $localJS = array(
                     </div>
                     <div class="p-models_item-slider_slide">
                       <div class="p-models_item-slider_slide-img">
-                        <img src="./assets/images/models/house1041/pick03.jpg" alt="">
+                        <img src="./assets/images/models/house1013/pick03.jpg" alt="">
                       </div>
                       <h4 class="p-models_item-slider_slide-title">
                         可動棚付き<br>シューズクローク
@@ -496,7 +496,7 @@ $localJS = array(
                     </div>
                     <div class="p-models_item-slider_slide">
                       <div class="p-models_item-slider_slide-img">
-                        <img src="./assets/images/models/house1041/pick04.jpg" alt="">
+                        <img src="./assets/images/models/house1013/pick04.jpg" alt="">
                       </div>
                       <h4 class="p-models_item-slider_slide-title">
                         スムーズに暮らす。<br>こだわりの回遊動線
@@ -508,7 +508,7 @@ $localJS = array(
                     </div>
                     <div class="p-models_item-slider_slide">
                       <div class="p-models_item-slider_slide-img">
-                        <img src="./assets/images/models/house1041/pick05.jpg" alt="">
+                        <img src="./assets/images/models/house1013/pick05.jpg" alt="">
                       </div>
                       <h4 class="p-models_item-slider_slide-title">
                         オール電化でも安心♪<br>太陽光発電
