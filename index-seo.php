@@ -1244,7 +1244,7 @@ $localJS = array(
               </div>
               <div class="p-models_item-links">
                 <a href="https://www.logoshome.jp/event/nakashibetsu/121/" class="p-models_item-links_btn-green" target="_blank" rel="noopener">もっと詳細を見る</a>
-                <a href="https://www.logoshome.jp/event-reserve/?eventReserveId=121" target="_blank" rel="noopener">見学ご予約はこちら</a>
+                <a href="https://www.logoshome.jp/event-reserve/?eventReserveId=121" class="p-models_item-links_btn-coral" target="_blank" rel="noopener">見学ご予約はこちら</a>
               </div>
             </div>
           </section>
