@@ -8,8 +8,8 @@ $page_area_name = '中標津';
 $isNewAreaLp = true;
 
 $localCSS = array(
-  //'./assets/css/style.css?240207',
-  //'./assets/css/add.css?231113',
+  './assets/css/style.css?240207',
+  './assets/css/add.css?231113',
 );
 $localJS = array(
   // './assets/js/app.js',
