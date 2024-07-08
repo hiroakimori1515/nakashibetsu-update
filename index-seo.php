@@ -1,15 +1,15 @@
 <?php
 require_once (dirname(__FILE__) . '/../cmn_assets/inc/config.php');
 require_once (INCLUDE_PATH . '/parts/campaign/base/index.php');
-$page_title = "札幌市の注文住宅なら 北海道着工数No1ハウスメーカーの【ロゴスホーム】";
-$page_description = "北海道札幌市でローコスト注⽂住宅を建てるならハウスメーカーのロゴスホームにお任せ下さい。おかげさまで北海道住宅着⼯数No.1「創エネ」「省エネ」新築住宅・⾒学会のイベント随時開催中。お気軽にお問い合わせください。";
-$pageUrl = 'https://www.logoshome.jp/sapporo/';
-$page_area_name = '札幌';
+$page_title = "中標津町の注文住宅なら 北海道着工数No1ハウスメーカーの【ロゴスホーム】";
+$page_description = "北海道中標津町でローコスト注⽂住宅を建てるならハウスメーカーのロゴスホームにお任せ下さい。おかげさまで北海道住宅着⼯数No.1「創エネ」「省エネ」新築住宅・⾒学会のイベント随時開催中。お気軽にお問い合わせください。";
+$pageUrl = 'https://www.logoshome.jp/nakashibetsu/';
+$page_area_name = '中標津';
 $isNewAreaLp = true;
 
 $localCSS = array(
-  //'./assets/css/style.css?240207',
-  //'./assets/css/add.css?231113',
+  './assets/css/style.css?240207',
+  './assets/css/add.css?231113',
 );
 $localJS = array(
   // './assets/js/app.js',
@@ -120,7 +120,7 @@ $localJS = array(
           <h1 class="p-mv_main">
             <picture>
               <source media="(max-width: 750px)" srcset="./assets/images/mv/mv_main01_sp_short.png" />
-              <img src="./assets/images/mv/mv_main01.png" alt="<?= $page_area_name ?>市の注文住宅">
+              <img src="./assets/images/mv/mv_main01.png" alt="<?= $page_area_name ?>町の注文住宅">
             </picture>
           </h1>
           <div class="p-mv-no1 pc">
@@ -145,7 +145,7 @@ $localJS = array(
     <?php
     $breadcrumbItems = array(
       array(
-        'text' => $page_area_name . '市の注文住宅',
+        'text' => $page_area_name . '町の注文住宅',
       ),
     );
     require_once (INCLUDE_PATH . '/parts/breadcrumb.php');
@@ -170,21 +170,21 @@ $localJS = array(
               <!-- <span class="p-popular_card-pop">
                 <img src="/cmn_assets/images/models/pop_tochi.png" alt="非公開の土地情報も閲覧可能！" loading="lazy">
               </span> -->
-              <a class="p-popular_card-link" href="#a-house51">
+              <a class="p-popular_card-link" href="#a-lh">
                 <span class="p-popular_card-icon">
                   <img width="113" height="113" src="/cmn_assets/images/model-icon/icon_no1.png" alt="人気NO.1" loading="lazy">
                 </span>
                 <div class="p-popular_card-head">
-                  <img src="./assets/images/models/house51/top.png" alt="">
+                  <img src="./assets/images/models/lh/top.png" alt="">
                 </div>
                 <div class="p-popular_card-body">
-                  <span class="p-popular_card-event">MODEL HOUSE</span>
+                  <span class="p-popular_card-event">SHOW ROOM</span>
                   <h3 class="p-popular_card-title">
                     <span class="p-popular_card-title_outer">
-                      <span class="p-popular_card-title_inner">カタヅク・カクセル・カクレル。</span>
+                      <span class="p-popular_card-title_inner">ロゴスホーム中標津</span>
                     </span>
                     <span class="p-popular_card-title_outer">
-                      <span class="p-popular_card-title_inner">キレイを保てる家</span>
+                      <span class="p-popular_card-title_inner">ショールーム</span>
                     </span>
                   </h3>
                   <div class="p-popular_card-data">
@@ -195,7 +195,7 @@ $localJS = array(
                       </tr>
                       <tr class="p-popular_card-table_row">
                         <th class="p-popular_card-table_head"><span>住所</span></th>
-                        <td class="p-popular_card-table_body">石狩市花川南9条1丁目87番6</td>
+                        <td class="p-popular_card-table_body">標津郡中標津町東1条南10丁目2番地2</td>
                       </tr>
                     </table>
                   </div>
@@ -207,8 +207,9 @@ $localJS = array(
               <!-- <span class="p-popular_card-pop">
                 <img src="/cmn_assets/images/models/pop_tochi.png" alt="非公開の土地情報も閲覧可能！" loading="lazy">
               </span> -->
-              <a class="p-popular_card-link" href="#a-house40">
-                <div class="p-popular_card-head">
+              <a class="p-popular_card-link">
+                <img src="../cmn_assets/images/common/no_img-half.png" alt="COMING SOON">
+                <!-- <div class="p-popular_card-head">
                   <img src="./assets/images/models/house40/top.png" alt="">
                 </div>
                 <div class="p-popular_card-body">
@@ -234,15 +235,16 @@ $localJS = array(
                     </table>
                   </div>
                 </div>
-                <p class="p-popular_card-more">物件を見てみる</p>
+                <p class="p-popular_card-more">物件を見てみる</p> -->
               </a>
             </li>
             <li class="p-popular_card js-fadein-item u-mb-60">
               <!-- <span class="p-popular_card-pop">
                 <img src="/cmn_assets/images/models/pop_tochi.png" alt="非公開の土地情報も閲覧可能！" loading="lazy">
               </span> -->
-              <a class="p-popular_card-link" href="#a-house62">
-                <div class="p-popular_card-head">
+              <a class="p-popular_card-link">
+                <img src="../cmn_assets/images/common/no_img-half.png" alt="COMING SOON">
+                <!-- <div class="p-popular_card-head">
                   <img src="./assets/images/models/house62/top.png" alt="">
                 </div>
                 <div class="p-popular_card-body">
@@ -268,7 +270,7 @@ $localJS = array(
                     </table>
                   </div>
                 </div>
-                <p class="p-popular_card-more">物件を見てみる</p>
+                <p class="p-popular_card-more">物件を見てみる</p> -->
               </a>
             </li>
           </ul>
@@ -311,9 +313,9 @@ $localJS = array(
           <li class="p-toc_list-item">
             <a href="#a-works" class="p-toc_list-link">施工事例</a>
           </li>
-          <li class="p-toc_list-item">
+          <!-- <li class="p-toc_list-item">
             <a href="#a-voice" class="p-toc_list-link">お客様の声</a>
-          </li>
+          </li> -->
           <li class="p-toc_list-item">
             <a href="#a-area-info" class="p-toc_list-link">エリア情報</a>
           </li>
@@ -328,7 +330,7 @@ $localJS = array(
           <h2 class="c-section-title_md-main" style="color: #45a33c;"><?= $page_area_name ?>の<br class="sp">注文住宅・新築一戸建ては<br>ロゴスホームにお任せ下さい。</h2>
         </div>
         <p class="p-omakase_text">
-          札幌の注文住宅、新築一戸建てはロゴスホームにお任せください。<br>
+          中標津町の注文住宅、新築一戸建てはロゴスホームにお任せください。<br>
           北海道の寒い冬でも暖かく過ごせる住宅性能に加え、月々の負担を軽減する省エネ住宅を、北海道で働く誰もが手の届く価格設定にこだわってご提供しています。<br>
           オープンハウスやモデルハウスは、吹き抜け・インナーガレージ・平屋などお客様の趣向に沿った等身大の住宅です。ぜひご覧ください。
         </p>
@@ -342,7 +344,7 @@ $localJS = array(
           <h2 class="p-works-count_title"><?= $page_area_name ?>の<br class="pc">施工実績</h2>
           <p class="p-works-count_count">
             <small class="p-works-count_count-sub">累計施工件数</small>
-            <strong class="p-works-count_count-main">885</strong>
+            <strong class="p-works-count_count-main">115</strong>
             <span class="p-works-count_count-unit">件</span>
           </p>
         </div>
@@ -397,7 +399,7 @@ $localJS = array(
 
         <div class="p-models_list">
 
-          <section id="a-house1041" class="p-models_item js-models_item-accordion_parent">
+          <section id="a-house1013" class="p-models_item js-models_item-accordion_parent">
             <div class="p-models_item-inner">
               <div class="p-models_item-intro">
                 <!--<p class="p-models_item-intro_catch">お隣同士<strong>２棟同時見学</strong>可能！</p>-->
@@ -408,7 +410,7 @@ $localJS = array(
                   </div>
                   <div class="p-models_item-intro_content">
                     <h3 class="p-models_item-title u-text-align-left-pc">
-                      夢を叶える2Fリビングのお家
+                      軽量性・断熱性に優れたガルバリウムのお家
                     </h3>
                   </div>
                 </div>
@@ -416,39 +418,39 @@ $localJS = array(
               </div>
               <div class="p-models_item-lead">
                 <div class="p-models_item-thumb">
-                  <img src="./assets/images/models/house1041/top.png" loading="lazy" alt="">
+                  <img src="./assets/images/model-list/house1013/top.png" loading="lazy" alt="">
                 </div>
                 <div class="p-models_item-lead_content">
                   <p class="p-models_item-lead_address">
-                    東区本町2条2丁目
+                    中標津町東10条南9丁目
                   </p>
                   <p class="p-models_item-lead_title">
                     <span class="p-models_item-lead_title-main">
-                    毎日公開中！
+                      7月20日(土)よりGRAND OPEN！
                     </span>
                     <span class="p-models_item-lead_title-sub">
                       (水・木を除く)
                     </span>
                   </p>
-                  <p class="p-models_item-lead_label">OPEN HOUSE</p>
+                  <p class="p-models_item-lead_label">MODEL HOUSE</p>
                 </div>
               </div>
               <table class="p-models_item-data">
                 <tr class="p-models_item-data_row">
                   <th class="p-models_item-data_head">住所</th>
-                  <td class="p-models_item-data_body">札幌市東区本町2条2丁目1番2号
+                  <td class="p-models_item-data_body">中標津町東10条南9丁目1番13
                   </td>
                 </tr>
                 <tr class="p-models_item-data_row">
                   <th class="p-models_item-data_head">公開</th>
-                  <td class="p-models_item-data_body">毎日公開中！(水・木を除く) 10:00～17:00</td>
+                  <td class="p-models_item-data_body">7月20日(土)よりGRAND OPEN！(水・木を除く) 10:00～17:00</td>
                 </tr>
               </table>
               <button type="button" class="p-models_item-open js-models_item-accordion_btn">内観を見る<span class="p-models_item-open_icon"></span></button>
             </div>
             <div class="p-models_item-links">
-              <a href="https://www.logoshome.jp/event/sapporo/32003/" class="p-models_item-links_btn-green" target="_blank" rel="noopener">もっと詳細を見る</a>
-              <a href="https://www.logoshome.jp/event-reserve/?eventReserveId=32003" class="p-models_item-links_btn-coral" target="_blank" rel="noopener">見学ご予約はこちら</a>
+              <a href="https://www.logoshome.jp/event/nakashibetsu/31442/" class="p-models_item-links_btn-green" target="_blank" rel="noopener">もっと詳細を見る</a>
+              <a href="https://www.logoshome.jp/event-reserve/?eventReserveId=31442" class="p-models_item-links_btn-coral" target="_blank" rel="noopener">見学ご予約はこちら</a>
             </div>
             <div class="p-models_item-details js-models_item-accordion_details">
               <p class="p-models_item-details_banner">
@@ -456,99 +458,92 @@ $localJS = array(
               </p>
               <div class="p-models_item-details_inner u-mb-60">
                 <p class="p-models_item-details_title">
-                  夢を叶える<br>
-                  2Fリビングのお家
+                  軽量性・断熱性に優れたガルバリウムのお家
                 </p>
                 <div class="p-models_item-slider">
                   <div class="p-models_item-slider_wrapper js-model-slider">
                     <div class="p-models_item-slider_slide">
                       <div class="p-models_item-slider_slide-img">
-                        <img src="./assets/images/models/house1041/pick01.jpg" alt="">
+                        <img src="./assets/images/models/house1013/pick01.jpg" alt="">
                       </div>
                       <h4 class="p-models_item-slider_slide-title">
-                        明るくて開放的！<br>
-                        こだわりの2Fリビング
-
+                        すぐ収納で家事ラク！<br>ランドリールーム
                       </h4>
                       <p class="p-models_item-slider_slide-text">
-                        限られた土地でも開放感のあるリビングを作りたい方必見！
-                        2Fにリビングをもうけることで日当たりをしっかり確保し、26.6帖のゆとりあるリビングダイニングを実現しています。階段吹き抜けやアイランドキッチンによって、より開放的な空間となっています。
+                        2Fには物干しとカウンターを備えたランドリールームがあります。カウンターで乾いた洗濯物を畳んだり、アイロン掛けをしたり自由に活用できます。そのまま隣のウォークインクローゼットに収納できるので、家事が楽にはかどります♪
                       </p>
                     </div>
                     <div class="p-models_item-slider_slide">
                       <div class="p-models_item-slider_slide-img">
-                        <img src="./assets/images/models/house1041/pick02.jpg" alt="">
+                        <img src="./assets/images/models/house1013/pick02.jpg" alt="">
                       </div>
                       <h4 class="p-models_item-slider_slide-title">
-                        シューズクロークと<br>
-                        冬でも楽ちん♪室内物置
+                        お出かけ時に便利♪<br>玄関ホールベンチ
                       </h4>
                       <p class="p-models_item-slider_slide-text">
-                        玄関脇にはシューズクロークがあり、家族の靴をたっぷり収納できます。
-                        また、シューズクロークの奥には物置があります。家の中に物置があることで、厳しい冬のシーズンでも物の出し入れがラクラク！大変使いやすい間取りとなっています。
+                        玄関にはベンチを設置し、外出時や帰宅時の靴の脱ぎ履きが楽に行えます。ゆっくり座れるベンチがあることで、子どもや年配の方にもやさしいつくりとなっています。
+                      また、ベンチの下がオープンになっていてよく着用する靴などを置くことができます。
                       </p>
                     </div>
                     <div class="p-models_item-slider_slide">
                       <div class="p-models_item-slider_slide-img">
-                        <img src="./assets/images/models/house1041/pick03.jpg" alt="">
+                        <img src="./assets/images/models/house1013/pick03.jpg" alt="">
                       </div>
                       <h4 class="p-models_item-slider_slide-title">
-                        将来は2部屋に。<br>
-                        間仕切り可能な子ども部屋
+                        可動棚付き<br>シューズクローク
                       </h4>
                       <p class="p-models_item-slider_slide-text">
-                        1Fには約10帖の部屋があり、子ども部屋として利用できます。将来的に部屋を分けることを想定した設計になっていて、子どもの成長に合わせて間仕切りが可能です。
-                        また、収納はあえて扉をつけず、整理整頓が身に付きやすいオープンクローゼットとなっていて、子育て世帯にもオススメのつくりです。
+                        玄関横には、自由にアレンジして収納できる可動棚付きのシューズクロークをもうけています。洋服掛けもあるので、濡れた雨具を干したりよく使う上着をかけたり、外出・帰宅時に大変便利です♪
                       </p>
                     </div>
                     <div class="p-models_item-slider_slide">
                       <div class="p-models_item-slider_slide-img">
-                        <img src="./assets/images/models/house1041/pick04.jpg" alt="">
+                        <img src="./assets/images/models/house1013/pick04.jpg" alt="">
                       </div>
                       <h4 class="p-models_item-slider_slide-title">
-                        生活感を隠す<br>
-                        スッキリ収納術
+                        スムーズに暮らす。<br>こだわりの回遊動線
                       </h4>
                       <p class="p-models_item-slider_slide-text">
-                        ウォークインクローゼット、パントリー、階段下収納、ファミリークローゼットなど各所に収納が充実しています。物が多くても生活感を出さずに大容量の収納が可能です。主寝室のウォークインクローゼットは2つあり、夫婦別に分けることで朝の身支度がスムーズになります。
+                        玄関から洗面化粧台にすぐアクセスできる間取りとなっています。帰宅時にリビングを通らずすぐ手洗い・うがいができる動線なので、感染症予防など衛生面でも安心です。<br>
+                        また、2Fのウォークインクローゼットは、ランドリールームや居室からもアクセス可能で、収納や着替えがスムーズに行えます。
                       </p>
                     </div>
                     <div class="p-models_item-slider_slide">
                       <div class="p-models_item-slider_slide-img">
-                        <img src="./assets/images/models/house1041/pick05.jpg" alt="">
+                        <img src="./assets/images/models/house1013/pick05.jpg" alt="">
                       </div>
                       <h4 class="p-models_item-slider_slide-title">
-                        家事がはかどる♪<br>
-                        便利な回遊動線
+                        オール電化でも安心♪<br>太陽光発電
                       </h4>
                       <p class="p-models_item-slider_slide-text">
-                        2Fはキッチン、トイレ、独立洗面台、ユーティリティ、リビングと回遊してアクセスできる動線になっています。朝の忙しい時間でも同時進行で家事ができるので、おうち時間がより快適になりそうですね♪
+                        太陽光パネルを標準装備しています。太陽光発電があることで、オール電化のお家でも電気代がお得になり安心です！<br>
+                        また、売電で収入を得られる場合もあるので家計にやさしくオススメです♪
                       </p>
                     </div>
                   </div>
                   <p class="p-models_item-annotaition"><small>※設備仕様のイメージ写真です。実際の建物とは異なります。</small></p>
                 </div>
-                <p class="p-models_item-details_store-name"><strong>担当店舗</strong>：ロゴスホーム 札幌北</p>
-                <a href="tel:011-775-4126" class="p-models_item-details_tel">
+                <p class="p-models_item-details_store-name"><strong>担当店舗</strong>：ロゴスホーム中標津</p>
+                <a href="tel:0153-73-1726" class="p-models_item-details_tel">
                   <span class="p-models_item-details_tel-icon"><img src="/cmn_assets/images/common/icon_tel_white02.png" alt=""></span>
-                  <span class="p-models_item-details_tel-num">011-775-4126</span>
+                  <span class="p-models_item-details_tel-num">0153-73-1726</span>
                 </a>
-                <div class="p-models_item-details_map js-async-map" data-map='<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d728.5289173228838!2d141.3817952!3d43.0810635!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f0b2947f9c47c5b%3A0x6a91b066989d84eb!2z44CSMDY1LTAwNDIg5YyX5rW36YGT5pyt5bmM5biC5p2x5Yy65pys55S677yS5p2h77yS5LiB55uu77yR4oiS77yS!5e0!3m2!1sja!2sjp!4v1718607446770!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'>
+                <div class="p-models_item-details_map js-async-map" data-map='<iframe src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d722.9542672432171!2d144.989345!3d43.547855!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDPCsDMyJzUyLjMiTiAxNDTCsDU5JzIxLjYiRQ!5e0!3m2!1sja!2sus!4v1718245566497!5m2!1sja!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'>
                 </div>
-                <div class="c-map-link"><a href="https://maps.app.goo.gl/zZxFfXTXxfhumELT8" target="_blank" rel="noopener">GoogleMAPでみる</a></div>
+                <div class="c-map-link"><a href="https://maps.app.goo.gl/3rZcpL2HAyPTeC4W6" target="_blank" rel="noopener">GoogleMAPでみる</a></div>
               </div>
               <div class="p-models_item-links">
-                <a href="https://www.logoshome.jp/event/sapporo/32003/" class="p-models_item-links_btn-green" target="_blank" rel="noopener">もっと詳細を見る</a>
-                <a href="https://www.logoshome.jp/event-reserve/?eventReserveId=32003" class="p-models_item-links_btn-coral" target="_blank" rel="noopener">見学ご予約はこちら</a>
+                <a href="https://www.logoshome.jp/event/nakashibetsu/31442/" class="p-models_item-links_btn-green" target="_blank" rel="noopener">もっと詳細を見る</a>
+                <a href="https://www.logoshome.jp/event-reserve/?eventReserveId=31442" class="p-models_item-links_btn-coral" target="_blank" rel="noopener">見学ご予約はこちら</a>
               </div>
             </div>
           </section>
-          <!-- /#a-house1041 -->
+          <!-- /#a-house1013 -->
 
 
 
 
-          <section id="a-house1031" class="p-models_item js-models_item-accordion_parent">
+          <section id="a-house01" class="p-models_item js-models_item-accordion_parent">
             <div class="p-models_item-inner">
               <div class="p-models_item-intro">
                 <!--<p class="p-models_item-intro_catch">お隣同士<strong>２棟同時見学</strong>可能！</p>-->
@@ -559,7 +554,7 @@ $localJS = array(
                   </div>
                   <div class="p-models_item-intro_content">
                     <h3 class="p-models_item-title u-text-align-left-pc">
-                      デザイン性と利便性を<br>兼ね備えたガレージ付きハウス
+                      オーナー様邸暮らしの見学会
                     </h3>
                   </div>
                 </div>
@@ -567,19 +562,19 @@ $localJS = array(
               </div>
               <div class="p-models_item-lead">
                 <div class="p-models_item-thumb">
-                  <img src="./assets/images/models/house1031/top.png" loading="lazy" alt="">
+                  <img src="./assets/images/model-list/house01/top.png" loading="lazy" alt="">
                 </div>
                 <div class="p-models_item-lead_content">
                   <p class="p-models_item-lead_address">
-                    南区石山1条2丁目
+                    中標津町東13条南3丁目
                   </p>
                   <p class="p-models_item-lead_title">
                     <span class="p-models_item-lead_title-main">
-                      毎日公開中!
+                      完全予約制！
                     </span>
-                    <span class="p-models_item-lead_title-sub">
+                    <!-- <span class="p-models_item-lead_title-sub">
                       (水・木を除く)
-                    </span>
+                    </span> -->
                   </p>
                   <p class="p-models_item-lead_label">OPEN HOUSE</p>
                 </div>
@@ -587,18 +582,18 @@ $localJS = array(
               <table class="p-models_item-data">
                 <tr class="p-models_item-data_row">
                   <th class="p-models_item-data_head">住所</th>
-                  <td class="p-models_item-data_body">札幌市南区石山1条2丁目5番5号</td>
+                  <td class="p-models_item-data_body">標津郡中標津町東13条南3丁目</td>
                 </tr>
                 <tr class="p-models_item-data_row">
                   <th class="p-models_item-data_head">公開</th>
-                  <td class="p-models_item-data_body">毎日公開中！(水・木除く)10:00～17:00</td>
+                  <td class="p-models_item-data_body">完全予約制！※ご見学希望日時は要相談</td>
                 </tr>
               </table>
               <button type="button" class="p-models_item-open js-models_item-accordion_btn">内観を見る<span class="p-models_item-open_icon"></span></button>
             </div>
             <div class="p-models_item-links">
-              <a href="https://www.logoshome.jp/event/sapporo/31725/" class="p-models_item-links_btn-green" target="_blank" rel="noopener">もっと詳細を見る</a>
-              <a href="https://www.logoshome.jp/event-reserve/?eventReserveId=31725" class="p-models_item-links_btn-coral" target="_blank" rel="noopener">見学ご予約はこちら</a>
+              <a href="https://www.logoshome.jp/event/nakashibetsu/10976/" class="p-models_item-links_btn-green" target="_blank" rel="noopener">もっと詳細を見る</a>
+              <a href="https://www.logoshome.jp/event-reserve/?eventReserveId=10976" class="p-models_item-links_btn-coral" target="_blank" rel="noopener">見学ご予約はこちら</a>
             </div>
             <div class="p-models_item-details js-models_item-accordion_details">
               <p class="p-models_item-details_banner">
@@ -606,111 +601,98 @@ $localJS = array(
               </p>
               <div class="p-models_item-details_inner u-mb-60">
                 <p class="p-models_item-details_title">
-                  デザイン性と利便性を兼ね備えた<br>
-                  ガレージ付きハウス
+                  オーナー様邸暮らしの見学会
                 </p>
                 <div class="p-models_item-slider">
                   <div class="p-models_item-slider_wrapper js-model-slider">
                     <div class="p-models_item-slider_slide">
                       <div class="p-models_item-slider_slide-img">
-                        <img src="./assets/images/models/house1031/pick01.jpg" alt="">
+                        <img src="./assets/images/models/house01/pick01.jpg" alt="">
                       </div>
                       <h4 class="p-models_item-slider_slide-title">
-                        車好きのための<br>
-                        ビルトインカーポート
+                        趣味のバイクやBBQのための夫婦の空間
                       </h4>
                       <p class="p-models_item-slider_slide-text">
-                        車好きの方必見♪2台駐車可能な広々としたビルトインカーポートです。<br>
-                        玄関ホールには大きな窓があり、いつでも愛車を室内から眺めて楽しむことができます。また、カーポートと玄関がつながっているため、雨や雪の日でも濡れることなく室内に入ることができて大変便利です。
+                        旦那様のご趣味でもあるバイクにいつでも触れることができるように室内からの動線を考えました。また、ガレージではお天気に左右されることなくBBQも楽しむことができます♪
                       </p>
                     </div>
                     <div class="p-models_item-slider_slide">
                       <div class="p-models_item-slider_slide-img">
-                        <img src="./assets/images/models/house1031/pick02.jpg" alt="">
+                        <img src="./assets/images/models/house01/pick02.jpg" alt="">
                       </div>
                       <h4 class="p-models_item-slider_slide-title">
-                        形状も光も。<br>
-                        こだわりぬいた家設計
+                        リビング上部に大きな吹き抜け<br>開放感と日当たり
                       </h4>
                       <p class="p-models_item-slider_slide-text">
-                        土地の形状に合わせて設計し、敷地をめいっぱい活用したお家となっています。<br>
-                        南に面したリビングダイニングは、日中の自然光がたっぷりふりそそぎ、明るくて開放的♪大きな庭がさらに心地のよい空間を演出しています。<br>
-                        また、各所の天井クロスに木目を使用し、温かみのあるナチュラルな雰囲気となっています。
+                        日当たりがよく、趣味のものを置くリビングも圧迫感を感じることなく過ごすことが出来ます。
                       </p>
                     </div>
                     <div class="p-models_item-slider_slide">
                       <div class="p-models_item-slider_slide-img">
-                        <img src="./assets/images/models/house1031/pick03.jpg" alt="">
+                        <img src="./assets/images/models/house01/pick03.jpg" alt="">
                       </div>
                       <h4 class="p-models_item-slider_slide-title">
-                        開放的で使いやすい！<br>
-                        広々23帖のLDK
+                        ストレートのLDKと続き間
                       </h4>
                       <p class="p-models_item-slider_slide-text">
-                        キッチンと横並びに配置したダイニングは、配膳や片付けにとても便利♪<br>
-                        大勢の来客時でも広々と使えるリビングに加え、子どもが遊んでいる様子を見守れるオープンキッチンで安心です。<br>
-                        大きなパントリーに冷蔵庫を配置することで、リビングから見るキッチンはまるでバーのようなおしゃれ空間になります。
+                        来客が多いことから、来客時は客間として使用するために設けました。普段は開放して使うことでより快適に過ごすことが出来ます。
                       </p>
                     </div>
                     <div class="p-models_item-slider_slide">
                       <div class="p-models_item-slider_slide-img">
-                        <img src="./assets/images/models/house1031/pick04.jpg" alt="">
+                        <img src="./assets/images/models/house01/pick04.jpg" alt="">
                       </div>
                       <h4 class="p-models_item-slider_slide-title">
-                        生活感を隠しても<br>
-                        暮らしやすい間取り
+                        家族で使える収納であり、籠ってテレワークも可能
                       </h4>
                       <p class="p-models_item-slider_slide-text">
-                        1Fの廊下がガレージの内窓からまっすぐ伸び、玄関・洗面所・ランドリールームと直線状に配置することで、統一感が出るだけでなく使いやすい動線となっています。<br>
-                        間玄関横のシューズクロークは、キャンプギアなども収納できる余裕の広さ！独立したランドリールームでは、洗濯から乾燥まで1部屋で完結するなど、暮らしがスムーズになる工夫がたくさん詰まっています。
+                        洗濯⇒干す⇒収納という一直線で家事が完結できるように配置しました。また、3帖と広いスペースのため、籠ってテレワークスペースとしても活用できます。
                       </p>
                     </div>
                     <div class="p-models_item-slider_slide">
                       <div class="p-models_item-slider_slide-img">
-                        <img src="./assets/images/models/house1031/pick05.jpg" alt="">
+                        <img src="./assets/images/models/house01/pick05.jpg" alt="">
                       </div>
                       <h4 class="p-models_item-slider_slide-title">
-                        プライベート充実。<br>
-                        家族それぞれの空間
+                        夫婦でしっかり分けて使える6帖のWIC
                       </h4>
                       <p class="p-models_item-slider_slide-text">
-                        2Fの約8帖の主寝室と広々3帖のWICの奥には、秘密の部屋があります。書斎としても利用できるおこもり空間です。<br>
-                        また、子ども部屋や趣味スペースにもなる約6帖の部屋が2つあり、家族それぞれのプライベートをしっかり考え抜いたつくりとなっています。
+                        アウトドア用品やバンドグッズなど共通の趣味が多いため、6帖程の広さの収納スペースを確保しました。6帖あれば収納に困らず、今後グッズが増えても安心ですね♪
                       </p>
                     </div>
                   </div>
                   <p class="p-models_item-annotaition"><small>※設備仕様のイメージ写真です。実際の建物とは異なります。</small></p>
                 </div>
-                <p class="p-models_item-details_store-name"><strong>担当店舗</strong>：ロゴスホーム 札幌南</p>
-                <a href="tel:011-558-3276" class="p-models_item-details_tel">
+                <p class="p-models_item-details_store-name"><strong>担当店舗</strong>：ロゴスホーム中標津</p>
+                <a href="tel:0153-73-1726" class="p-models_item-details_tel">
                   <span class="p-models_item-details_tel-icon"><img src="/cmn_assets/images/common/icon_tel_white02.png" alt=""></span>
-                  <span class="p-models_item-details_tel-num">011-558-3276</span>
+                  <span class="p-models_item-details_tel-num">0153-73-1726</span>
                 </a>
-                <div class="p-models_item-details_map js-async-map" data-map='<iframe src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d5838.4426701144475!2d141.341861!3d42.973611!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDLCsDU4JzI1LjAiTiAxNDHCsDIwJzMwLjciRQ!5e0!3m2!1sja!2sjp!4v1717986284339!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'>
+                <!-- <div class="p-models_item-details_map js-async-map" data-map='<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d721.6498307239161!2d145.0207548292534!3d43.65650396897282!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa231147652846137!2zNDPCsDM5JzIzLjQiTiAxNDXCsDAxJzE2LjciRQ!5e0!3m2!1sja!2sjp!4v1667874612229!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'>
                 </div>
-                <div class="c-map-link"><a href="https://maps.app.goo.gl/wHxvtuSEiUYsrhsMA" target="_blank" rel="noopener">GoogleMAPでみる</a></div>
+                <div class="c-map-link"><a href="https://goo.gl/maps/z2jwHjJY3oGg1Cis7" target="_blank" rel="noopener">GoogleMAPでみる</a></div> -->
               </div>
               <div class="p-models_item-links">
-                <a href="https://www.logoshome.jp/event/sapporo/31725/" class="p-models_item-links_btn-green" target="_blank" rel="noopener">もっと詳細を見る</a>
-                <a href="https://www.logoshome.jp/event-reserve/?eventReserveId=31725" class="p-models_item-links_btn-coral" target="_blank" rel="noopener">見学ご予約はこちら</a>
+                <a href="https://www.logoshome.jp/event/nakashibetsu/10976/" class="p-models_item-links_btn-green" target="_blank" rel="noopener">もっと詳細を見る</a>
+                <a href="https://www.logoshome.jp/event-reserve/?eventReserveId=10976" class="p-models_item-links_btn-coral" target="_blank" rel="noopener">見学ご予約はこちら</a>
               </div>
             </div>
           </section>
-          <!-- /#a-house51 -->
+          <!-- /#a-house01 -->
 
-          <section id="a-house51" class="p-models_item js-models_item-accordion_parent">
+          <!-- <section id="a-house51" class="p-models_item js-models_item-accordion_parent">
             <div class="p-models_item-icons">
               <div class="p-models_item-icon">
                 <img width="113" height="113" src="/cmn_assets/images/model-icon/icon_no1.png" alt="人気NO.1" loading="lazy" />
               </div>
             </div>
             <div class="p-models_item-inner">
-              <div class="p-models_item-intro">
+              <div class="p-models_item-intro"> -->
                 <!--<p class="p-models_item-intro_catch">お隣同士<strong>２棟同時見学</strong>可能！</p>-->
-                <div class="p-models_item-intro_inner">
-                  <div class="p-models_item-intro_icon">
+                <!-- <div class="p-models_item-intro_inner">
+                  <div class="p-models_item-intro_icon"> -->
                     <!-- <img src="/cmn_assets/images/common/icon_kikaku.png" alt="企画住宅"> -->
-                    <img src="/cmn_assets/images/common/icon_order.png" alt="フルオーダー住宅">
+                    <!-- <img src="/cmn_assets/images/common/icon_order.png" alt="フルオーダー住宅">
                   </div>
                   <div class="p-models_item-intro_content">
                     <h3 class="p-models_item-title u-text-align-left-pc">
@@ -847,17 +829,17 @@ $localJS = array(
                 <a href="https://www.logoshome.jp/sapporo/hanakawa/#a-reservation" class="p-models_item-links_btn-coral" target="_blank" rel="noopener">見学ご予約はこちら</a>
               </div>
             </div>
-          </section>
+          </section> -->
           <!-- /#a-house51 -->
 
-          <section id="a-house62" class="p-models_item js-models_item-accordion_parent">
+          <!-- <section id="a-house62" class="p-models_item js-models_item-accordion_parent">
             <div class="p-models_item-inner">
-                 <div class="p-models_item-intro">
+                 <div class="p-models_item-intro"> -->
                 <!--<p class="p-models_item-intro_catch">お隣同士<strong>２棟同時見学</strong>可能！</p>-->
-                <div class="p-models_item-intro_inner">
-                  <div class="p-models_item-intro_icon">
+                <!-- <div class="p-models_item-intro_inner">
+                  <div class="p-models_item-intro_icon"> -->
                     <!-- <img src="/cmn_assets/images/common/icon_kikaku.png" alt="企画住宅"> -->
-                    <img src="/cmn_assets/images/common/icon_order.png" alt="フルオーダー住宅">
+                    <!-- <img src="/cmn_assets/images/common/icon_order.png" alt="フルオーダー住宅">
                   </div>
                   <div class="p-models_item-intro_content">
                     <h3 class="p-models_item-title u-text-align-left-pc">
@@ -989,17 +971,17 @@ $localJS = array(
                 <a href="https://www.logoshome.jp/sapporo/kaminopporo/#a-reservation" class="p-models_item-links_btn-coral" target="_blank" rel="noopener">見学ご予約はこちら</a>
               </div>
             </div>
-          </section>
+          </section> -->
           <!-- /#a-house40 -->
 
-          <section id="a-house40" class="p-models_item js-models_item-accordion_parent">
+          <!-- <section id="a-house40" class="p-models_item js-models_item-accordion_parent">
             <div class="p-models_item-inner">
-               <div class="p-models_item-intro">
+               <div class="p-models_item-intro"> -->
                 <!--<p class="p-models_item-intro_catch">お隣同士<strong>２棟同時見学</strong>可能！</p>-->
-                <div class="p-models_item-intro_inner">
-                  <div class="p-models_item-intro_icon">
+                <!-- <div class="p-models_item-intro_inner">
+                  <div class="p-models_item-intro_icon"> -->
                     <!-- <img src="/cmn_assets/images/common/icon_kikaku.png" alt="企画住宅"> -->
-                    <img src="/cmn_assets/images/common/icon_order.png" alt="フルオーダー住宅">
+                    <!-- <img src="/cmn_assets/images/common/icon_order.png" alt="フルオーダー住宅">
                   </div>
                   <div class="p-models_item-intro_content">
                     <h3 class="p-models_item-title u-text-align-left-pc">
@@ -1132,7 +1114,7 @@ $localJS = array(
                 <a href="tel:011-775-4126" class="p-models_item-details_tel">
                   <span class="p-models_item-details_tel-icon"><img src="/cmn_assets/images/common/icon_tel_white02.png" alt=""></span>
                   <span class="p-models_item-details_tel-num">011-775-4126</span>
-                </a>
+                </a> -->
                 <!-- <p class="p-models_item-profile">■所在地：滝沢市穴口305番16 ■交通：①いわて銀河鉄道「青山」駅 徒歩26分／②岩手県交通「西青山」停まで徒歩2分／③岩手県交通「境橋」停まで徒歩3分 ■学区：月が丘小学校（徒歩1分／約350m）・滝沢南中学校（徒歩34分／約2700m） ■地目：宅地 ■用途地域：第2種中高層住居専用地域 ■建ぺい率：60% ■容積率：200% ■道路：幅員南東側6.40ｍ公道 ■間取り：3LDK ■建物面積：1F: 46.26㎡（13.99坪） 2F: 47.07㎡（14.23坪）■延床: 93.33㎡（28.00坪） ■完成時期：2023年10月中旬 ■入居予定：応相談 ■建物状況：新築 ■構造：木造 ■工法：2x6工法 ■建築確認番号 第R05-1-0871-0号 ■駐車場：カースペース3台 ■設備：LDK 15帖以上／ウォークインクローゼット／システムキッチン／パントリー／IHクッキングヒーター／浄水器／浴室1坪以上／複層ガラス／オール電化／TVモニタ付きインターホン／省エネ給湯器</p>
                 <div class="p-models_item-price">
                   <p class="p-models_item-price_label">- PRICE -</p>
@@ -1143,7 +1125,7 @@ $localJS = array(
                     自己資金：10万円/3,580万円お借入れ/岩手銀行/金利0.85％/借入期間40年
                   </p>
                 </div> -->
-                <div class="p-models_item-details_map js-async-map" data-map='<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5816.997579512721!2d141.7645013!3d43.1990265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f0b4bcdd67b4173%3A0x81cf0c61dc6131ff!2z44CSMDY4LTAwMjcg5YyX5rW36YGT5bKp6KaL5rKi5biC77yX5p2h6KW_77yV5LiB55uu77yV!5e0!3m2!1sja!2sjp!4v1718253903929!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'>
+                <!-- <div class="p-models_item-details_map js-async-map" data-map='<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5816.997579512721!2d141.7645013!3d43.1990265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f0b4bcdd67b4173%3A0x81cf0c61dc6131ff!2z44CSMDY4LTAwMjcg5YyX5rW36YGT5bKp6KaL5rKi5biC77yX5p2h6KW_77yV5LiB55uu77yV!5e0!3m2!1sja!2sjp!4v1718253903929!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'>
                 </div>
                 <div class="c-map-link"><a href="https://maps.app.goo.gl/nGnZd8HXijtE3kNF7" target="_blank" rel="noopener">GoogleMAPでみる</a></div>
               </div>
@@ -1152,24 +1134,23 @@ $localJS = array(
                 <a href="https://www.logoshome.jp/sapporo/iwamizawa/#a-reservation" class="p-models_item-links_btn-coral" target="_blank" rel="noopener">見学ご予約はこちら</a>
               </div>
             </div>
-          </section>
+          </section> -->
           <!-- /#a-house40 -->
 
-          <section id="a-sh-sapporo-kita" class="p-models_item js-models_item-accordion_parent">
+          <section id="a-lh" class="p-models_item js-models_item-accordion_parent">
             <div class="p-models_item-inner">
               <div class="p-models_item-head">
                 <h3 class="p-models_item-title">
-                  ロゴスホーム札幌北ショールームで <br>
-                  「十勝型住宅」「自分だけの居心地」を体感しよう！
+                  SHOW ROOM<br>ロゴスホーム中標津<br>ショールーム
                 </h3>
               </div>
               <div class="p-models_item-lead">
                 <div class="p-models_item-thumb">
-                  <img src="./assets/images/models/sh-sapporo-kita/top.png" loading="lazy" alt="">
+                  <img src="./assets/images/model-list/lh/top.png" alt="">
                 </div>
                 <div class="p-models_item-lead_content">
                   <p class="p-models_item-lead_address">
-                    札幌北ショールーム
+                    ロゴスホーム中標津ショールーム
                   </p>
                   <p class="p-models_item-lead_title">
                     <span class="p-models_item-lead_title-main">
@@ -1185,7 +1166,7 @@ $localJS = array(
               <table class="p-models_item-data">
                 <tr class="p-models_item-data_row">
                   <th class="p-models_item-data_head">住所</th>
-                  <td class="p-models_item-data_body">札幌市北区屯田7条5丁目2−1</td>
+                  <td class="p-models_item-data_body">標津郡中標津町東1条南10丁目2番地2-2</td>
                 </tr>
                 <tr class="p-models_item-data_row">
                   <th class="p-models_item-data_head">公開</th>
@@ -1195,8 +1176,8 @@ $localJS = array(
               <button type="button" class="p-models_item-open js-models_item-accordion_btn">内観を見る<span class="p-models_item-open_icon"></span></button>
             </div>
             <div class="p-models_item-links">
-              <a href="https://www.logoshome.jp/lp/sapporoshowroom/" class="p-models_item-links_btn-green" target="_blank" rel="noopener">もっと詳細を見る</a>
-              <a href="https://www.logoshome.jp/lp/sapporoshowroom/#sec08" class="p-models_item-links_btn-coral" target="_blank" rel="noopener">見学ご予約はこちら</a>
+              <a href="https://www.logoshome.jp/event/nakashibetsu/121/" class="p-models_item-links_btn-green" target="_blank" rel="noopener">もっと詳細を見る</a>
+              <a href="https://www.logoshome.jp/event-reserve/?eventReserveId=121" class="p-models_item-links_btn-coral" target="_blank" rel="noopener">見学ご予約はこちら</a>
             </div>
             <div class="p-models_item-details js-models_item-accordion_details">
               <p class="p-models_item-details_banner">
@@ -1204,16 +1185,16 @@ $localJS = array(
               </p>
               <div class="p-models_item-details_inner u-mb-60">
                 <p class="p-models_item-details_title">
-                  札幌北ショールーム
+                  ロゴスホーム中標津ショールーム
                 </p>
                 <div class="p-models_item-slider">
                   <div class="p-models_item-slider_wrapper js-model-slider">
                     <div class="p-models_item-slider_slide">
                       <div class="p-models_item-slider_slide-img">
-                        <img src="./assets/images/models/sh-sapporo-kita/pick01.jpg" alt="">
+                        <img src="./assets/images/models/lh/pick01.jpg" alt="">
                       </div>
                       <h4 class="p-models_item-slider_slide-title">
-                        STANDARD MODEL ZONE
+                        住宅のプロとしてどんな些細なご不安も<br class="pc">しっかりお答えします！
                       </h4>
                       <p class="p-models_item-slider_slide-text">
                         ロゴスホームの設備や構造がわかります。 床暖房や標準装備に触れることができます。
@@ -1221,10 +1202,10 @@ $localJS = array(
                     </div>
                     <div class="p-models_item-slider_slide">
                       <div class="p-models_item-slider_slide-img">
-                        <img src="./assets/images/models/sh-sapporo-kita/pick02.jpg" alt="">
+                        <img src="./assets/images/models/lh/pick02.jpg" alt="">
                       </div>
                       <h4 class="p-models_item-slider_slide-title">
-                        ADVANCE MODEL ZONE
+                        ショールームにご来場いただいたその場で<br class="pc">資金計画・土地・間取りのご提案も可能です♪
                       </h4>
                       <p class="p-models_item-slider_slide-text">
                         ロゴスホームの「快適さ」へのこだわりを体感。 家事動線・収納などの工夫がご覧いただけます。
@@ -1232,10 +1213,10 @@ $localJS = array(
                     </div>
                     <div class="p-models_item-slider_slide">
                       <div class="p-models_item-slider_slide-img">
-                        <img src="./assets/images/models/sh-sapporo-kita/pick03.jpg" alt="">
+                        <img src="./assets/images/models/lh/pick03.jpg" alt="">
                       </div>
                       <h4 class="p-models_item-slider_slide-title">
-                        PREMIUM MODEL ZONE
+                        お客様と共に考えるための仕掛けがいっぱいです。
                       </h4>
                       <p class="p-models_item-slider_slide-text">
                         趣味やライフスタイルに合わせた家づくり、 フルオーダーや自由設計の空間デザインが体感できます。
@@ -1243,10 +1224,10 @@ $localJS = array(
                     </div>
                     <div class="p-models_item-slider_slide">
                       <div class="p-models_item-slider_slide-img">
-                        <img src="./assets/images/models/sh-sapporo-kita/pick04.jpg" alt="">
+                        <img src="./assets/images/models/lh/pick04.jpg" alt="">
                       </div>
                       <h4 class="p-models_item-slider_slide-title">
-                        Kids Roomも完備！
+                        スタッフ一同、皆様のお越しを心よりお待ちしております。
                       </h4>
                       <p class="p-models_item-slider_slide-text">
                         お打ち合わせや内覧中にお子様が飽きることなくお過ごしいただけます。
@@ -1254,24 +1235,24 @@ $localJS = array(
                     </div>
                   </div>
                 </div>
-                <p class="p-models_item-details_store-name"><strong>担当店舗</strong>：ロゴスホーム 札幌北</p>
-                <a href="tel:011-558-3276" class="p-models_item-details_tel">
+                <p class="p-models_item-details_store-name"><strong>担当店舗</strong>：ロゴスホーム中標津</p>
+                <a href="tel:0153-73-1726" class="p-models_item-details_tel">
                   <span class="p-models_item-details_tel-icon"><img src="/cmn_assets/images/common/icon_tel_white02.png" alt=""></span>
-                  <span class="p-models_item-details_tel-num">011-775-4126</span>
+                  <span class="p-models_item-details_tel-num">0153-73-1726</span>
                 </a>
-                <div class="p-models_item-details_map js-async-map" data-map='<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2911.482801233805!2d141.334549!3d43.13639!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f0b25eff2707a55%3A0xb8b2c5db8bcf6d0c!2z44Ot44K044K544Ob44O844Og5pyt5bmM5YyXIOOCt-ODp-ODvOODq-ODvOODoA!5e0!3m2!1sja!2sjp!4v1716543377619!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'>
+                <div class="p-models_item-details_map js-async-map" data-map='<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5784.161560173537!2d144.981974!3d43.542358!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f6da44d26add905%3A0x9ced7bf2fb51e010!2z44Ot44K044K544Ob44O844Og5Lit5qiZ5rSlIOOCt-ODp-ODvOODq-ODvOODoA!5e0!3m2!1sja!2sjp!4v1692612306843!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'>
                 </div>
-                <div class="c-map-link"><a href="https://maps.app.goo.gl/xwmmhthumd6kY5GG9" target="_blank" rel="noopener">GoogleMAPでみる</a></div>
+                <div class="c-map-link"><a href="https://goo.gl/maps/4dsCej8m5mNrS17H9" target="_blank" rel="noopener">GoogleMAPでみる</a></div>
               </div>
               <div class="p-models_item-links">
-                <a href="https://www.logoshome.jp/lp/sapporoshowroom/" class="p-models_item-links_btn-green" target="_blank" rel="noopener">もっと詳細を見る</a>
-                <a href="https://www.logoshome.jp/lp/sapporoshowroom/#sec08" class="p-models_item-links_btn-coral" target="_blank" rel="noopener">見学ご予約はこちら</a>
+                <a href="https://www.logoshome.jp/event/nakashibetsu/121/" class="p-models_item-links_btn-green" target="_blank" rel="noopener">もっと詳細を見る</a>
+                <a href="https://www.logoshome.jp/event-reserve/?eventReserveId=121" class="p-models_item-links_btn-coral" target="_blank" rel="noopener">見学ご予約はこちら</a>
               </div>
             </div>
           </section>
-          <!-- /#a-sh-sapporo-kita -->
+          <!-- /lh中標津 -->
 
-          <section id="a-sh-sapporo-minami" class="p-models_item js-models_item-accordion_parent">
+          <!-- <section id="a-sh-sapporo-minami" class="p-models_item js-models_item-accordion_parent">
             <div class="p-models_item-inner">
               <div class="p-models_item-head">
                 <h3 class="p-models_item-title">
@@ -1328,36 +1309,36 @@ $localJS = array(
                     <div class="p-models_item-slider_slide">
                       <div class="p-models_item-slider_slide-img">
                         <img src="./assets/images/models/sh-sapporo-minami/pick01.jpg" alt="">
-                      </div>
+                      </div> -->
                       <!-- <h4 class="p-models_item-slider_slide-title">
                         リビングとつながる<br>
                         開放的な土間空間
                       </h4> -->
-                      <p class="p-models_item-slider_slide-text">
+                      <!-- <p class="p-models_item-slider_slide-text">
                         ロゴスホームの設備や構造がわかります。 床暖房や標準装備に触れることができます。
                       </p>
                     </div>
                     <div class="p-models_item-slider_slide">
                       <div class="p-models_item-slider_slide-img">
                         <img src="./assets/images/models/sh-sapporo-minami/pick02.jpg" alt="">
-                      </div>
+                      </div> -->
                       <!-- <h4 class="p-models_item-slider_slide-title">
                         至福のおこもり時間。<br>
                         階段下ヌック
                       </h4> -->
-                      <p class="p-models_item-slider_slide-text">
+                      <!-- <p class="p-models_item-slider_slide-text">
                         ロゴスホームの「快適さ」へのこだわりを体感。 家事動線・収納などの工夫がご覧いただけます。階段下には本好きにはたまらないおこもりスペースがあります。ふわふわなクッションに腰掛けながらゆったりくついで、おうち時間をのんびり楽しめますね。
                       </p>
                     </div>
                     <div class="p-models_item-slider_slide">
                       <div class="p-models_item-slider_slide-img">
                         <img src="./assets/images/models/sh-sapporo-minami/pick03.jpg" alt="">
-                      </div>
+                      </div> -->
                       <!-- <h4 class="p-models_item-slider_slide-title">
                         料理が楽しくなる<br>
                         アイランドキッチン
                       </h4> -->
-                      <p class="p-models_item-slider_slide-text">
+                      <!-- <p class="p-models_item-slider_slide-text">
                         趣味やライフスタイルに合わせた家づくり、 フルオーダーや自由設計の空間デザインが体感できます。
                       </p>
                     </div>
@@ -1377,10 +1358,10 @@ $localJS = array(
                 <a href="https://www.logoshome.jp/event-reserve/?eventReserveId=8464" class="p-models_item-links_btn-coral" target="_blank" rel="noopener">見学ご予約はこちら</a>
               </div>
             </div>
-          </section>
+          </section> -->
           <!-- /#a-sh-sapporo-minami -->
 
-          <section id="a-classium" class="p-models_item js-models_item-accordion_parent">
+          <!-- <section id="a-classium" class="p-models_item js-models_item-accordion_parent">
             <div class="p-models_item-inner">
               <div class="p-models_item-head">
                 <h3 class="p-models_item-title">
@@ -1441,48 +1422,48 @@ $localJS = array(
                     <div class="p-models_item-slider_slide">
                       <div class="p-models_item-slider_slide-img">
                         <img src="./assets/images/models/classium/pick01.jpg" alt="">
-                      </div>
+                      </div> -->
                       <!-- <h4 class="p-models_item-slider_slide-title">
                         リビングとつながる<br>
                         開放的な土間空間
                       </h4> -->
-                      <p class="p-models_item-slider_slide-text">
+                      <!-- <p class="p-models_item-slider_slide-text">
                         北海道で家を建てようと考えているすべての人に、まずご覧になっていただきたい動画を常時OAしています。ロゴスホールディングスが考える家づくりについてのプレゼンテーションはもちろんのこと、今、建てるべき家のヒントがきっと見つかります。
                       </p>
                     </div>
                     <div class="p-models_item-slider_slide">
                       <div class="p-models_item-slider_slide-img">
                         <img src="./assets/images/models/classium/pick02.jpg" alt="">
-                      </div>
+                      </div> -->
                       <!-- <h4 class="p-models_item-slider_slide-title">
                         至福のおこもり時間。<br>
                         階段下ヌック
                       </h4> -->
-                      <p class="p-models_item-slider_slide-text">
+                      <!-- <p class="p-models_item-slider_slide-text">
                         「耐震等級」とは地震に対する建物の強度を示す指標のひとつで、耐震性能によってランクが3段階に分かれています。「耐震等級3」の家は、どれくらいの揺れに耐えうるのか。実際に体験できます。
                       </p>
                     </div>
                     <div class="p-models_item-slider_slide">
                       <div class="p-models_item-slider_slide-img">
                         <img src="./assets/images/models/classium/pick03.jpg" alt="">
-                      </div>
+                      </div> -->
                       <!-- <h4 class="p-models_item-slider_slide-title">
                         料理が楽しくなる<br>
                         アイランドキッチン
                       </h4> -->
-                      <p class="p-models_item-slider_slide-text">
+                      <!-- <p class="p-models_item-slider_slide-text">
                         「太陽光パネルはどれくらいの電気量を発電できる？」そんなギモンに応えるべく、お客様自らが自転車を漕いで発電体験！電気を作るために必要なパワーを体感できます。
                       </p>
                     </div>
                     <div class="p-models_item-slider_slide">
                       <div class="p-models_item-slider_slide-img">
                         <img src="./assets/images/models/classium/pick04.jpg" alt="">
-                      </div>
+                      </div> -->
                       <!-- <h4 class="p-models_item-slider_slide-title">
                         料理が楽しくなる<br>
                         アイランドキッチン
                       </h4> -->
-                      <p class="p-models_item-slider_slide-text">
+                      <!-- <p class="p-models_item-slider_slide-text">
                         家づくりに登場する「UA値」とは、住宅内部から床や天井、開口部などを通過して外部へ逃げる熱量を数値化したもの。一般的な建売住宅と、ZEH仕様の家を比較&体験してみましょう。
                       </p>
                     </div>
@@ -1502,7 +1483,7 @@ $localJS = array(
                 <a href="https://hokkaidoclassium.resv.jp/reserve/calendar.php" class="p-models_item-links_btn-coral" target="_blank" rel="noopener">見学ご予約はこちら</a>
               </div>
             </div>
-          </section>
+          </section> -->
           <!-- /#a-classium -->
 
         </div>
@@ -1528,37 +1509,34 @@ $localJS = array(
         </div>
         <ul class="p-works_list">
           <li class="p-works_item">
-            <a href="https://www.logoshome.jp/works/duo-tres/japanese-modern/" class="p-works_item-link">
+            <a href="https://www.logoshome.jp/works/duo-tres/modern-house/" class="p-works_item-link">
               <div class="p-works_item-link_img">
                 <img src="/cmn_assets/images/works/duo-tres_japanese-modern.webp" alt="">
               </div>
               <div class="p-works_item-link_inner">
-                <h3 class="p-works_item-link_title">空間とデザインを楽しむ陽だまりの家</h3>
-                <p class="p-works_item-link_subtitle">JAPANESE MODERN</p>
+                <h3 class="p-works_item-link_title">木のぬくもりがモダンな家</h3>
+                <p class="p-works_item-link_subtitle">MODERN HOUSE</p>
                 <ul class="p-works_item-link_cat">
                   <li class="p-works_item-link_cat-item">#FORTAGE DUO・TRES</li>
-                  <li class="p-works_item-link_cat-item">#モダン</li>
-                  <li class="p-works_item-link_cat-item">#タイル</li>
-                  <li class="p-works_item-link_cat-item">#吹き抜け</li>
                 </ul>
               </div>
             </a>
           </li>
           <li class="p-works_item">
-            <a href="https://www.logoshome.jp/works/duo-tres/bow/" class="p-works_item-link">
+            <a href="https://www.logoshome.jp/works/duo-tres/new-york-style/" class="p-works_item-link">
               <div class="p-works_item-link_img">
                 <img src="/cmn_assets/images/works/duo-tres_bow.webp" alt="">
               </div>
               <div class="p-works_item-link_inner">
-                <h3 class="p-works_item-link_title">わんこと楽しく暮らす家</h3>
-                <p class="p-works_item-link_subtitle">BOW</p>
+                <h3 class="p-works_item-link_title">ニューヨークのアパルトマンをイメージした家</h3>
+                <p class="p-works_item-link_subtitle">NEW YORK STYLE</p>
                 <ul class="p-works_item-link_cat">
                   <li class="p-works_item-link_cat-item">#FORTAGE DUO・TRES</li>
                 </ul>
               </div>
             </a>
           </li>
-          <li class="p-works_item">
+          <!-- <li class="p-works_item">
             <a href="https://www.logoshome.jp/works/duo-tres/comfortable-house/" class="p-works_item-link">
               <div class="p-works_item-link_img">
                 <img src="/cmn_assets/images/works/duo-tres_comfortable-house.webp" alt="">
@@ -1599,14 +1577,14 @@ $localJS = array(
                 </ul>
               </div>
             </a>
-          </li>
+          </li> -->
         </ul>
         <a href="https://www.logoshome.jp/works/" class="p-works_more-btn">もっと見る</a>
       </div>
     </section>
     <!-- /#a-works -->
 
-    <section id="a-voice" class="p-voice">
+    <!-- <section id="a-voice" class="p-voice">
       <div class="l-inner p-voice_inner">
         <div class="c-section-title_md">
           <h2 class="c-section-title_md-main"><?= $page_area_name ?>のお客様の声</h2>
@@ -1673,46 +1651,48 @@ $localJS = array(
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- p-area-info -->
     <article id="a-area-info" class="p-area-info">
       <div class="p-area-info_inner">
         <div class="p-area-info_head u-mb-10">
-          <h2 class="c-article-title-l p-area-info_title"><?= $page_area_name ?>市の土地・不動産情報</h2>
+          <h2 class="c-article-title-l p-area-info_title"><?= $page_area_name ?>町の土地・不動産情報</h2>
           <!-- <p class="p-area-info_catch">札幌市で注文住宅を建てるならロゴスホームにご相談ください。</p> -->
         </div>
         <section class="p-area-info_section">
-          <h3 class="c-article-title-m p-area-info_section_title"><?= $page_area_name ?>市の坪単価相場</h3>
+          <h3 class="c-article-title-m p-area-info_section_title"><?= $page_area_name ?>町の坪単価相場</h3>
           <div class="p-area-info_section_inner">
-            <p class="c-article-title-r u-mb-30 u-negmr-4rem-sp"><span>68万5081<small>円/坪 （※2024年［令和6年］ 公示地価）</small></span>
+            <p class="c-article-title-r u-mb-30 u-negmr-4rem-sp"><span>5万9752<small>円/坪 （※2024年［令和6年］ 公示地価）</small></span>
           </div>
         </section>
         <section class="p-area-info_section">
-          <h3 class="c-article-title-m p-area-info_section_title"><?= $page_area_name ?>市の土地・物件探しのポイント</h3>
+          <h3 class="c-article-title-m p-area-info_section_title"><?= $page_area_name ?>町の土地・物件探しのポイント</h3>
           <div class="p-area-info_section_inner">
             <p>
-              北海道の県庁所在地である札幌市は、人口約196万人の大都市で、10区（厚別区、北区、清田区、白石区、中央区、手稲区、豊平区、西区、東区、南区）から構成され、ビジネスや観光の中心地として発展しています。交通インフラはJR、地下鉄、バスが発達しており、札幌駅や大通駅を中心に市内外へのアクセスが良好です。新千歳空港へも直通バスや快速列車があり、交通の便が非常に良いです。高速道路や幹線道路も整備されており、車移動もスムーズです。<br>
-              生活環境も充実しており、大型ショッピングモールやスーパー、コンビニが点在し、生活必需品の調達が容易です。病院も多数あり、安心して生活を送ることができます。豊平川や中島公園、円山公園など、自然を感じられる場所も多く、快適な生活が送れます。<br>
-              最後に、不動産の状況もチェックする必要があります。札幌市内の土地価格は上昇傾向にあるため、予算に合わせて柔軟にエリアを選定することが重要です。これらのポイントを押さえて、自分に最適な土地・物件を見つけましょう。
+              中標津町は北海道東部に位置し、人口は約2.2万人です。酪農が盛んで自然の豊かな土地でありながら、商業施設や温泉も充実しているのが町の魅力のひとつです。中標津空港があり、飛行機でのアクセスが便利。市街地内には循環バスも運行していますが、多くはマイカーを利用しています。<br>
+              町の人口の約9割が中心市街地で暮らしています。コンビニや大型スーパー、ドラッグストアやホームセンターなど、買い物に必要な施設は揃っています。「ゆめの森公園」という道立の大きな公園では、アスレチック、バーベキュー、パークゴルフなどを楽しめます。<br>
+              中標津町での土地・物件探しは、市街地を初めに検討することをおすすめします。市街地は商業施設や医療機関が充実しており、生活に便利です。これらのポイントを押さえて、最適な物件を見つけましょう。<br>
             </p>
           </div>
         </section>
         <section class="p-area-info_section u-mb-40">
-          <h3 class="c-article-title-m p-area-info_section_title"><?= $page_area_name ?>市の新築一戸建てにおすすめのエリア</h3>
+          <h3 class="c-article-title-m p-area-info_section_title"><?= $page_area_name ?>町の新築一戸建てにおすすめのエリア</h3>
           <div class="p-area-info_section_inner">
-            <h4 class="p-area-info_green-border-text">円山エリア</h4>
+            <!-- <h4 class="p-area-info_green-border-text">円山エリア</h4> -->
             <p class="u-mb-20">
-              円山エリアは、高級住宅街であり、緑豊かな円山公園が近くにあります。学校や病院が揃っており、家族連れにも人気のエリアです。駅直結のショッピングモールがあり、買い物や外食に便利です。また、市営地下鉄東西線が利用できるため、通勤にも便利です。
+              中心市街地が一番おすすめです。町民の約9割が中心市街地で暮らしており、地域社会が活発です。安心して子育てや暮らしを始められる環境が整っています。<br>
+              飲食店や大型スーパー、学校や病院など、生活に必要な施設が集中しています。買い物や日常の生活に便利な環境です。近海の海産物も多く、食材豊かな買い物が楽しめます。<br>
+              中標津空港まで約10分で行けるのも便利。旅行や出張など気軽に道内外へ行くことができます。
             </p>
-            <h4 class="p-area-info_green-border-text">琴似エリア</h4>
+            <!-- <h4 class="p-area-info_green-border-text">琴似エリア</h4>
             <p class="u-mb-20">
               琴似エリアは、商業施設が充実しており、生活利便性が高いエリアです。JR琴似駅や地下鉄琴似駅が利用可能です。駅周辺は商業施設の集まる繁華街となっています。札幌西区役所や、西区民センター図書館など、公共施設も多く、子育て世帯にも適しています。
             </p>
             <h4 class="p-area-info_green-border-text">白石エリア</h4>
             <p class="u-mb-20">
               白石エリアは、住宅街として人気のエリアで、教育施設や公園が充実しています。地下鉄東西線やJRの駅があり、交通の便も良好です。大型スーパーやドラッグストアがあり、買い物に便利です。また、白石区民センターや図書館などの公共施設も豊富です。
-            </p>
+            </p> -->
             <!-- <ul class="p-area-info_list">
               <li class="p-area-info_green-border-text"></li>
             </ul> -->
@@ -1720,30 +1700,27 @@ $localJS = array(
         </section>
 
         <div class="p-area-info_head u-mb-10">
-          <h2 class="c-article-title-l p-area-info_title"><?= $page_area_name ?>市の特徴</h2>
+          <h2 class="c-article-title-l p-area-info_title"><?= $page_area_name ?>町の特徴</h2>
           <!-- <p class="p-area-info_catch">札幌市で注文住宅を建てるならロゴスホームにご相談ください。</p> -->
         </div>
         <section class="p-area-info_section">
-          <h3 class="c-article-title-m p-area-info_section_title"><?= $page_area_name ?>市について</h3>
+          <h3 class="c-article-title-m p-area-info_section_title"><?= $page_area_name ?>町について</h3>
           <div class="p-area-info_section_inner">
             <p>
-              札幌市は北海道の道央地方に位置し道庁所在地になります。政令指定都市であり、10の区が置かれています。<br>
-              北海道の政治・経済・文化の中心地であり、人口は約195万人であり、国内有数の大都市圏の一つです。<br>
-              四季折々の自然が息づく中、冬季は豪雪地帯として有名であり、多様な冬のスポーツや温泉を楽しむことができます。<br>
-              一方、夏季は涼しく爽やかな気候であり、豊かな自然環境に恵まれています。<br>
-              観光名所としては、大通公園や円山動物園、さっぽろ羊ヶ丘展望台などが挙げられ、また美味しい海産物やラーメンなどの食文化も楽しむことができます。<br>
-              さらに、札幌市は国際交流や文化イベントが盛んであり、北海道開拓の歴史やアート、音楽など多彩な面を持つ都市です。
+              中標津町は、北海道の東部、根室管内の中部に位置し、町域は東西約 42㎞、南北約 27㎞に及びます。<br>
+              面積は、684.87㎢。北部は千島火山帯につながる丘陵地で、南側に向かって緩やかに傾斜し、平坦な根釧原野が広がっています。<br>
+              内陸性の気候で、夏の平均気温は 20℃前後、冬の平均気温はマイナス 10℃前後。<br>
+              積雪は、道内でも少ない方です。
             </p>
           </div>
         </section>
         <section class="p-area-info_section">
-          <h3 class="c-article-title-m p-area-info_section_title"><?= $page_area_name ?>市の教育・医療環境</h3>
+          <h3 class="c-article-title-m p-area-info_section_title"><?= $page_area_name ?>町の教育・医療環境</h3>
           <div class="p-area-info_section_inner">
             <p>
-              札幌市では平成21年度から「札幌らしい特色ある学校教育」を推進しています。<br>
-              【雪】【環境】【読書】を中核をなす三つのテーマとして、全ての園・学校が共通に取り組むものです。<br>
-              札幌の素晴らしい自然環境を生かしながら生涯にわたり学び・向上し続けようとする意欲を培うための<br>
-              基盤となる学習活動を教育課程に明確に位置付け、知・徳・体の調和のとれた学びを推進しています。
+              教育の情報化の推進については、国のＧＩＧＡスクール構想により整備した「１人１台端末」を活用し、各教科等の特質に応じて適切な学習場面で情報活用能力の育成を図るとともに、<br>
+              ＡＩ型学習教材等の導入により、学習の習熟度に合わせた発展的な学習をするなどの「個別最適な学び」や、児童生徒同士で学習内容を共有して学び合う「協働的な学び」を進めるよう、ＩＣＴ教育の一層の充実に努めています。<br>
+              また、子どもたちがＩＣＴを適切かつ安全に活用できるよう、情報モラルに関する指導の徹底を図るとともに、ＩＣＴを日常的・効果的に活用した家庭学習を実現するため、端末の家庭への持ち帰りを段階的に拡充しています。
             </p>
           </div>
         </section>
@@ -1850,7 +1827,45 @@ $localJS = array(
 
     <article class="about u-mb-10-pc">
       <?php require_once (INCLUDE_PATH . '/parts/about-company.php'); ?>
-      <div class="about-store" id="LH_SAPPOROKITA">
+      <div class="about-store" id="LH_NAKASHIBETSU">
+        <div class="about-store_img"><img src="./assets/images/about/about_store3.jpg" alt=""></div>
+        <div class="about-store_box js-fadein-item">
+          <h3 class="about-store_name u-font-bold u-mb-20">ロゴスホーム中標津</h3>
+          <div class="about-store_data">
+            <dl class="about-store_item u-mb-20">
+              <dt>所在地</dt>
+              <dd>〒086-1001 <br>
+                標津郡中標津町東1条南10丁目2番地2</dd>
+            </dl>
+            <dl class="about-store_item u-mb-20">
+              <dt>TEL</dt>
+              <dd>0153-73-1726</dd>
+            </dl>
+            <dl class="about-store_item u-mb-20">
+              <dt>FAX</dt>
+              <dd>0153-73-1724</dd>
+            </dl>
+            <dl class="about-store_item u-mb-20">
+              <dt>営業時間</dt>
+              <dd>10:00～17:00（定休:水・木曜日 ※祝日の場合は営業）</dd>
+            </dl>
+            <dl class="about-store_item u-mb-20">
+              <dt>施工エリア</dt>
+              <dd>中標津町・標津町・別海町・弟子屈町<br>
+                ＜下記のエリアは遠方のため、別料金が発生します。＞<br>
+                根室市・羅臼町・斜里町</dd>
+            </dl>
+          </div>
+          <!-- <div class="c-sns-box">
+            <a href="https://www.facebook.com/%E3%83%AD%E3%82%B4%E3%82%B9%E3%83%9B%E3%83%BC%E3%83%A0%E4%B8%AD%E6%A8%99%E6%B4%A5-107342890854561" rel="nofollow noopener" target="_blank"><img src="./assets/images/common/facebook_icon.png" alt="facebook"></a>
+            <a href="https://www.instagram.com/logos_home/" rel="nofollow noopener" target="_blank"><img src="./assets/images/common/instagram_icon.png" alt="instagram"></a>
+          </div> -->
+          <div class="c-sns-box">
+            <a href="https://www.logoshome.jp/shop/hokkaido/nakashibetsu/" class="shop-detail-link">店舗詳細</a>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="about-store" id="LH_SAPPOROKITA">
         <div class="about-store_img"><img class="lazyload" data-src="./assets/images/about/about_store.jpg" alt="">
         </div>
         <div class="about-store_box js-fadein-item">
@@ -1882,11 +1897,11 @@ $localJS = array(
                 ＜下記のエリアは遠方のため、別料金が発生します。＞ <br>
                 小樽市、赤井川村、仁木町、当別町、余市町</dd>
             </dl>
-          </div>
+          </div> -->
           <!-- <div class="c-sns-box">
             <a href="https://www.instagram.com/logos_home/" rel="nofollow noopener" target="_blank"><img src="./assets/images/common/instagram_icon.png" alt="instagram"></a>
           </div> -->
-          <div class="c-sns-box">
+          <!-- <div class="c-sns-box">
             <a href="https://www.logoshome.jp/shop/hokkaido/sapporo/" class="shop-detail-link">店舗詳細</a>
           </div>
         </div>
@@ -1924,15 +1939,15 @@ $localJS = array(
                 ＜下記のエリアは遠方のため、別料金が発生します。＞ <br>
                 岩見沢市、三笠市・奈井江町、砂川市、美唄市、新篠津村</dd>
             </dl>
-          </div>
+          </div> -->
           <!-- <div class="c-sns-box">
             <a href="https://www.instagram.com/logos_home/" rel="nofollow noopener" target="_blank"><img src="./assets/images/common/instagram_icon.png" alt="instagram"></a>
           </div> -->
-          <div class="c-sns-box">
+          <!-- <div class="c-sns-box">
             <a href="https://www.logoshome.jp/shop/hokkaido/sapporominami/" class="shop-detail-link">店舗詳細</a>
           </div>
         </div>
-      </div>
+      </div> -->
 
       <!-- <div class="about-store" id="HC_SAPPORO">
         <div class="about-store_img pc"><img class="lazyload" data-src="./assets/images/about/about_store05.jpg" alt="">

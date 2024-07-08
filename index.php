@@ -1,4 +1,9 @@
 <?php
+header("Location: /nakashibetsu/index-seo.php");
+exit();
+?>
+
+<?php
 require_once (dirname(__FILE__) . '/../cmn_assets/inc/config.php');
 require_once (INCLUDE_PATH . '/parts/campaign/base/index.php');
 $page_title = "中標津町の注文住宅なら 北海道着工数No1ハウスメーカーの【ロゴスホーム】";
