@@ -170,21 +170,21 @@ $localJS = array(
               <!-- <span class="p-popular_card-pop">
                 <img src="/cmn_assets/images/models/pop_tochi.png" alt="非公開の土地情報も閲覧可能！" loading="lazy">
               </span> -->
-              <a class="p-popular_card-link" href="#a-house51">
+              <a class="p-popular_card-link" href="#a-lh">
                 <span class="p-popular_card-icon">
                   <img width="113" height="113" src="/cmn_assets/images/model-icon/icon_no1.png" alt="人気NO.1" loading="lazy">
                 </span>
                 <div class="p-popular_card-head">
-                  <img src="./assets/images/models/house51/top.png" alt="">
+                  <img src="./assets/images/models/lh/top.png" alt="">
                 </div>
                 <div class="p-popular_card-body">
-                  <span class="p-popular_card-event">MODEL HOUSE</span>
+                  <span class="p-popular_card-event">SHOW ROOM</span>
                   <h3 class="p-popular_card-title">
                     <span class="p-popular_card-title_outer">
-                      <span class="p-popular_card-title_inner">カタヅク・カクセル・カクレル。</span>
+                      <span class="p-popular_card-title_inner">ロゴスホーム中標津</span>
                     </span>
                     <span class="p-popular_card-title_outer">
-                      <span class="p-popular_card-title_inner">キレイを保てる家</span>
+                      <span class="p-popular_card-title_inner">ショールーム</span>
                     </span>
                   </h3>
                   <div class="p-popular_card-data">
@@ -195,7 +195,7 @@ $localJS = array(
                       </tr>
                       <tr class="p-popular_card-table_row">
                         <th class="p-popular_card-table_head"><span>住所</span></th>
-                        <td class="p-popular_card-table_body">石狩市花川南9条1丁目87番6</td>
+                        <td class="p-popular_card-table_body">標津郡中標津町東1条南10丁目2番地2</td>
                       </tr>
                     </table>
                   </div>
@@ -207,8 +207,9 @@ $localJS = array(
               <!-- <span class="p-popular_card-pop">
                 <img src="/cmn_assets/images/models/pop_tochi.png" alt="非公開の土地情報も閲覧可能！" loading="lazy">
               </span> -->
-              <a class="p-popular_card-link" href="#a-house40">
-                <div class="p-popular_card-head">
+              <a class="p-popular_card-link">
+                <img src="../cmn_assets/images/common/no_img-half.png" alt="COMING SOON">
+                <!-- <div class="p-popular_card-head">
                   <img src="./assets/images/models/house40/top.png" alt="">
                 </div>
                 <div class="p-popular_card-body">
@@ -234,15 +235,16 @@ $localJS = array(
                     </table>
                   </div>
                 </div>
-                <p class="p-popular_card-more">物件を見てみる</p>
+                <p class="p-popular_card-more">物件を見てみる</p> -->
               </a>
             </li>
             <li class="p-popular_card js-fadein-item u-mb-60">
               <!-- <span class="p-popular_card-pop">
                 <img src="/cmn_assets/images/models/pop_tochi.png" alt="非公開の土地情報も閲覧可能！" loading="lazy">
               </span> -->
-              <a class="p-popular_card-link" href="#a-house62">
-                <div class="p-popular_card-head">
+              <a class="p-popular_card-link">
+                <img src="../cmn_assets/images/common/no_img-half.png" alt="COMING SOON">
+                <!-- <div class="p-popular_card-head">
                   <img src="./assets/images/models/house62/top.png" alt="">
                 </div>
                 <div class="p-popular_card-body">
@@ -268,7 +270,7 @@ $localJS = array(
                     </table>
                   </div>
                 </div>
-                <p class="p-popular_card-more">物件を見てみる</p>
+                <p class="p-popular_card-more">物件を見てみる</p> -->
               </a>
             </li>
           </ul>
@@ -666,9 +668,9 @@ $localJS = array(
                   <span class="p-models_item-details_tel-icon"><img src="/cmn_assets/images/common/icon_tel_white02.png" alt=""></span>
                   <span class="p-models_item-details_tel-num">0153-73-1726</span>
                 </a>
-                <div class="p-models_item-details_map js-async-map" data-map='<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d721.6498307239161!2d145.0207548292534!3d43.65650396897282!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa231147652846137!2zNDPCsDM5JzIzLjQiTiAxNDXCsDAxJzE2LjciRQ!5e0!3m2!1sja!2sjp!4v1667874612229!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'>
+                <!-- <div class="p-models_item-details_map js-async-map" data-map='<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d721.6498307239161!2d145.0207548292534!3d43.65650396897282!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa231147652846137!2zNDPCsDM5JzIzLjQiTiAxNDXCsDAxJzE2LjciRQ!5e0!3m2!1sja!2sjp!4v1667874612229!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'>
                 </div>
-                <div class="c-map-link"><a href="https://goo.gl/maps/z2jwHjJY3oGg1Cis7" target="_blank" rel="noopener">GoogleMAPでみる</a></div>
+                <div class="c-map-link"><a href="https://goo.gl/maps/z2jwHjJY3oGg1Cis7" target="_blank" rel="noopener">GoogleMAPでみる</a></div> -->
               </div>
               <div class="p-models_item-links">
                 <a href="https://www.logoshome.jp/event/nakashibetsu/10976/" class="p-models_item-links_btn-green" target="_blank" rel="noopener">もっと詳細を見る</a>
@@ -1144,7 +1146,7 @@ $localJS = array(
               </div>
               <div class="p-models_item-lead">
                 <div class="p-models_item-thumb">
-                  <img src="/cmn_assets/images/model-list/model_logo_sr17.png" alt="">
+                  <img src="./assets/images/model-list/lh/top.png" alt="">
                 </div>
                 <div class="p-models_item-lead_content">
                   <p class="p-models_item-lead_address">
